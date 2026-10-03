@@ -1,0 +1,77 @@
+name: Full Palomar mechanical rehearsal
+
+on:
+  workflow_dispatch:
+    inputs:
+      request_id:
+        description: "Unique 12-character lowercase alphanumeric report identifier"
+        required: true
+        type: string
+      authorization_relationship:
+        description: "Your relationship to this formalization; confirm before running"
+        required: true
+        default: "I am a responsible author or maintainer"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-24.04
+    outputs:
+      repository: ${{ steps.guard.outputs.repository }}
+      commit: ${{ steps.guard.outputs.commit }}
+      pipeline: ${{ steps.guard.outputs.pipeline }}
+      request_id: ${{ steps.guard.outputs.request_id }}
+      options: ${{ steps.guard.outputs.options }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          path: source
+          persist-credentials: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          repository: PalomarRegistry/PalomarSubmission
+          ref: 65f0154ed776cd26c224254aa57b379137f28b0d
+          path: pipeline
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.11.10"
+      - name: Install pinned parser dependencies
+        run: python -m pip install --disable-pip-version-check --require-hashes --no-deps -r pipeline/requirements.txt
+      - name: Guard regression tests
+        run: python source/scripts/test_palomar_guard.py --pipeline pipeline --scratch-root "$RUNNER_TEMP"
+      - name: Validate immutable request and metadata
+        id: guard
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
+          SOURCE_REPOSITORY: ${{ github.repository }}
+          REQUEST_ID: ${{ inputs.request_id }}
+          AUTHORIZATION_RELATIONSHIP: ${{ inputs.authorization_relationship }}
+        run: >-
+          python source/scripts/palomar_guard.py
+          --source source --pipeline pipeline
+          --commit "$SOURCE_COMMIT" --repository "$SOURCE_REPOSITORY"
+          --request-id "$REQUEST_ID"
+          --authorization-relationship "$AUTHORIZATION_RELATIONSHIP"
+          --receipt "$RUNNER_TEMP/palomar-guard-receipt.json"
+      - name: Preserve guard receipt
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: palomar-guard-${{ inputs.request_id }}
+          path: ${{ runner.temp }}/palomar-guard-receipt.json
+          if-no-files-found: error
+  verify:
+    needs: guard
+    uses: PalomarRegistry/PalomarSubmission/.github/workflows/submission.yml@65f0154ed776cd26c224254aa57b379137f28b0d
+    with:
+      repository: ${{ needs.guard.outputs.repository }}
+      commit: ${{ needs.guard.outputs.commit }}
+      pipeline_commit: ${{ needs.guard.outputs.pipeline }}
+      request_id: ${{ needs.guard.outputs.request_id }}
+      mode: full
+      execution_profile: palomar-standard-v1
+      options: ${{ needs.guard.outputs.options }}

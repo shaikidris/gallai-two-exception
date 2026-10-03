@@ -1,0 +1,11 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Gallai.Submission.prescribed_endpoint",
+    "Gallai.Submission.ceiling_bound",
+    "Gallai.Submission.simultaneous_floor_add_one",
+    "Gallai.Submission.odd_order_simultaneous"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

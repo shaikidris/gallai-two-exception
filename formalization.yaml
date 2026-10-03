@@ -1,0 +1,75 @@
+version: "v0.4"
+project:
+  name: "Gallai's conjecture with two exceptional even vertices"
+  description: >-
+    Every connected finite simple graph admits an edge partition into at most
+    ceil(|V(G)|/2) simple paths when at most two vertices of its induced
+    even-degree graph have degree greater than three. One positive designated
+    even vertex can be exposed twice at the ceiling budget. Two designated
+    even vertices can be exposed twice simultaneously within floor(|V(G)|/2)+1
+    paths, giving simultaneous ceiling exposure at odd order. Exceptional
+    and ordinary degrees are unrestricted. Simultaneous even-order ceiling
+    exposure and the unrestricted Gallai conjecture are not claimed.
+  authors:
+    - name: "Idris Ali Shaik"
+  responsible_maintainers:
+    - name: "Idris Ali Shaik"
+  license: "Apache-2.0"
+classification:
+  arxiv: ["math.CO"]
+  msc2020: ["05C38", "05C70"]
+sources:
+  - title: "Gallai's conjecture with two exceptional even vertices"
+    authors: ["Idris Ali Shaik"]
+    type: "article"
+    location: "Unpublished manuscript; Theorem 1.1, Corollary 1.2, Proposition 3.1 and Corollary 3.2"
+    relationship: "formalizes"
+    author_endorsement: "participated"
+    note: "Manuscript SHA-256: 786e393dfaad34807effe7d4eabb3adbb81e63ed6f13869cca61c4df294a7590. Source extraction and visibility provenance are recorded in SOURCE_PROVENANCE.md."
+  - title: "Towards Gallai's path decomposition conjecture"
+    authors: ["Fábio Botler", "Maycon Sambinelli"]
+    id: "https://arxiv.org/abs/1911.04546"
+    type: "article"
+    relationship: "formalizes"
+    location: "Floor-or-SET theorem and supporting inputs"
+    author_endorsement: "not-contacted"
+  - title: "Gallai's Conjecture on Path Decompositions"
+    authors: ["Geng-Hua Fan", "Jian-Feng Hou", "Chui-Xiang Zhou"]
+    id: "doi:10.1007/s40305-022-00435-3"
+    type: "article"
+    relationship: "formalizes"
+    location: "One-exception endpoint theorem and supporting lemmas"
+    author_endorsement: "not-contacted"
+  - title: "Path decompositions and Gallai's conjecture"
+    authors: ["Geng-Hua Fan"]
+    id: "doi:10.1016/j.jctb.2004.09.008"
+    type: "article"
+    relationship: "formalizes"
+    location: "Endpoint-preserving edge and star addibility"
+    author_endorsement: "not-contacted"
+related_formalizations:
+  - id: "https://palomar-registry.org/entry?id=PALOMAR-2026-09-14-000005&version=1"
+    relationship: "builds-on"
+    note: "Inherited Gallai input infrastructure is copied with Apache-2.0 notices from historical source commit 2f19c6ff50ec0a7cb0d979f33870378299d78fea. This package contains the substantive successor proof, not a wrapper importing the registry record."
+status:
+  scope: "Four selected two-exception and endpoint statements, with their supporting proof cone. No three-exception or unrestricted Gallai claim."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  main_results:
+    - {declaration: "Gallai.Submission.prescribed_endpoint", file: "Solution.lean", comparator_config: "comparator.json"}
+    - {declaration: "Gallai.Submission.ceiling_bound", file: "Solution.lean", comparator_config: "comparator.json"}
+    - {declaration: "Gallai.Submission.simultaneous_floor_add_one", file: "Solution.lean", comparator_config: "comparator.json"}
+    - {declaration: "Gallai.Submission.odd_order_simultaneous", file: "Solution.lean", comparator_config: "comparator.json"}
+automation:
+  methods:
+    - method: "agent"
+      framework: "OpenAI Codex and Claude"
+      tool_setup: "Lean/Lake, mathematical proof analysis, iterative implementation and focused module builds."
+      prompting_notes: "Human-selected statements, modular obligations, tracked iterations and milestone-level fidelity and trust checks."
+  notes: "Substantial AI assistance. Complete model and cost history was not reconstructed."
+fidelity:
+  divergences: "Indexed oriented nonempty simple paths encode edge partitions; isolated vertices contribute no paths. The prescribed endpoint result concerns one vertex. Simultaneous even-order ceiling exposure is not asserted."
+review:
+  status: "agent-reviewed"
+  notes: "Research roots compiled with standard-only axioms and manuscript fidelity checked. Release conversion, Comparator and current full Palomar replay require their separate acceptance evidence. No human peer-review or literature-priority claim."

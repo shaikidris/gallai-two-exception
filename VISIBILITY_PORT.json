@@ -1,0 +1,2434 @@
+{
+  "scope": "MECHANICAL_VISIBILITY_PORT_NOT_A_BUILD",
+  "modules": 485,
+  "lines_after": 79232,
+  "source": "/Users/shaik.i/research/gallai-two-exception/c2-formalization",
+  "release": "/Users/shaik.i/research/gallai-two-exception/c2-palomar-release",
+  "files": [
+    {
+      "path": "Gallai/Foundations/Decomposition.lean",
+      "source_sha256": "d4c88eeba6d1c6c779ec5ef6d5c2cdfee57f4b9155fcc0c854a2d8e3f18fe515",
+      "ported_sha256": "4f00074cd6e34f9e1903cf155798f3d785ae158b113abfb459c4b1c127c104c3"
+    },
+    {
+      "path": "Gallai/Foundations/EdgeCounts.lean",
+      "source_sha256": "fc28c8deae4f3d507092dadbcc52b7043286df64e479ec515a14cd18883de9da",
+      "ported_sha256": "b7713a0b6fd5546c623761b27727373306d517f2762ba6215a2850bec91c7460"
+    },
+    {
+      "path": "Gallai/Foundations/EndpointBounds.lean",
+      "source_sha256": "bff668578dc588ce29eaaa24763422279337733a918f101873e8de54c796f630",
+      "ported_sha256": "8743b08b92591b3243250282bcf569a32d55a1d01e916e5b9cbfc74ce136d88b"
+    },
+    {
+      "path": "Gallai/Foundations/Endpoints.lean",
+      "source_sha256": "ce1c5704e9ce1a0a98557074f0ca4ac3596d16f287bde4e9421fcb283d24715f",
+      "ported_sha256": "08c9ac0dc7a303bf1ff62125c9beb164aff112a173d393c4588aa967759561e4"
+    },
+    {
+      "path": "Gallai/Foundations/HubProfiles.lean",
+      "source_sha256": "9fc5a0f06e3c81f5b34767f3adb42d8ddb744eacf83c8e7cab1d74bb20ee4991",
+      "ported_sha256": "84db3170bf503914cc88f928cbedeb8d8c26c305b2afa8f484f4e03f84965205"
+    },
+    {
+      "path": "Gallai/Foundations/Parity.lean",
+      "source_sha256": "bb10d3b28088fa14656fe5be335d39b5958ea5b0b1bd3ad707478c7c1540fd3f",
+      "ported_sha256": "f70975282be8ccea37b07b4131db778be8ca8f8bd00e7d04600d10a818fea021"
+    },
+    {
+      "path": "Gallai/Foundations/PathNumber.lean",
+      "source_sha256": "2a93ce8a570b585467ad4c339c47f2d56923c3f6c66320592632dfc7df3d2c36",
+      "ported_sha256": "dad13f578ba98089865db7568730245587a4f17be4f94d3cf0a00b7fc6b9b91d"
+    },
+    {
+      "path": "Gallai/Inputs/ActiveOddPuncture.lean",
+      "source_sha256": "f1179dfd487fdc0a1004c6d551576bbd0193a406f91f9506bf2786d33584a6f9",
+      "ported_sha256": "1cf7d13b47540aa32c1877ff9e7e5b66ca3a50953fc0a63b31636242f3f2e9ea"
+    },
+    {
+      "path": "Gallai/Inputs/AllOddReturn.lean",
+      "source_sha256": "9270ee2d28df66e5e9d426c5b7821fbcf03b3432a41ddb61c02c1c593634760e",
+      "ported_sha256": "8903cea03d0fd04c8a9210f6d49f436bc4b3df5064575f4a5bbf179e9658b561"
+    },
+    {
+      "path": "Gallai/Inputs/CarrierSwitch.lean",
+      "source_sha256": "b114d70f2f413b6be2d042550027ad6a01d3887601e9f52a31dbe40167fe5cbb",
+      "ported_sha256": "147310bdc056ee4db8565c3fc130e499f497b53580c5eb0e4bdf784d8553c764"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentDeletionFloor.lean",
+      "source_sha256": "d6696d9bff5451353153e3fd9feff61f306109419d0ef241ee8d60651f31a990",
+      "ported_sha256": "e1ef74a462ebb9bffce2dff9d8934a3ff5a5020dbbb72b952fae713ce5a84fd8"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentDeletionSplit.lean",
+      "source_sha256": "f6ad7f15ce6e6192f3725f7c0346279cf75b8e71878992b56df7c640b2aba55e",
+      "ported_sha256": "f724a8b4a6f7fabe863317100737954d9c08d0b6fb1caad1ed58f22f75e82928"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentDifficultLeaves.lean",
+      "source_sha256": "11dfefcdc7d667995be4ae3aa6f45540438d59e63e5173653f5f56625078753b",
+      "ported_sha256": "a4e5e7baf1e421fa9aa95d9b0c1689dac5415433546c60d364155046a263d732"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentExceptionalLeaves.lean",
+      "source_sha256": "032f47eb2e2c16c6938b1b605cad500596f6fccc18e0c0a241f0a6b96da7c39a",
+      "ported_sha256": "6d24c0867efa2d97a1ff7004ad5011b9560af29bf1eba6ad6aa4af12a40a7e24"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentHalfStar.lean",
+      "source_sha256": "a4c9f666afff45e6a124ec5b9963a62f93de89fbfee6413a5c67afd73881f362",
+      "ported_sha256": "2e088d13954bee12f642e960b06adc12b4794ab896f526e278e0e8ca094214a8"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentMatchingGraph.lean",
+      "source_sha256": "a33a7c248b9c094757fc7474178684dca69b0b3403dbf2e9720739beaea8d8d0",
+      "ported_sha256": "df1fad723f618f96a1e0e6195c746a203631b356cf4ce4d58f069cdd17eb4b5d"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentMatchingRestore.lean",
+      "source_sha256": "04abf11f3e39a142342dba690c6c619dd228a94c2cd8a18fd323ab0d865e1b63",
+      "ported_sha256": "de6a4d9395319cf92f1c7278fdc0483f6f6b3ac15be9443bfb1f1db5a675eb9f"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedDeletion.lean",
+      "source_sha256": "0fde04f9b6dc58d1fc13677a83283378240b56f2de55ed4b7015972114a27c46",
+      "ported_sha256": "d13a9073538ae2170d8574da95fb40612486b02515bbddccf29da052d6315082"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedDifficult.lean",
+      "source_sha256": "0759318d32c04b5e38cf963458bec05943328638db8f68eddb4d136066248f24",
+      "ported_sha256": "01eb03a638eb877652c9347bc9cc4328f8c92626e76ca33eca4b96d937716d61"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedFloor.lean",
+      "source_sha256": "4cdc9600c35a1928208b6c2baf99cf61a978a39cd944e65d98924003b0d37acc",
+      "ported_sha256": "060288094faae5aa3919c97ad8bfda10647753359d0b52aa91041bd14fc29cd8"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedHalfStar.lean",
+      "source_sha256": "9932dcc8551ef1b2c5edecf41648e6b57c3d83234937e5b7b265f667fe54b363",
+      "ported_sha256": "283ada80c60f1d0ef160514c27c4792270ef0535d1c866dc042d8ca929201b5b"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedLocal.lean",
+      "source_sha256": "13e1950c869372ab3ce1669f0e2022eb3262875d3005170d86985b7b3ab8246f",
+      "ported_sha256": "36355b11cb2fe62e6d0692be7a4232c03e9aa47b9317d721572c8410587e19da"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedMatching.lean",
+      "source_sha256": "f5ba3b249f042b8ea267c1b99a160a630fff715dc28efe10e986a13ccbc19b58",
+      "ported_sha256": "088e8dc1dcc36d655afbdf523f7b1f7a87c6d326375fc48d49067218c6644ea1"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedPassing.lean",
+      "source_sha256": "5e6c4eaf782cb990db6e66d8444f49c58e353cd035124828a15dfcb14a3a2c92",
+      "ported_sha256": "8540d380b0f2ccd035f54b14e64058a983802077b9c27151a3fffc66dac00afa"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedPassingBounds.lean",
+      "source_sha256": "cc8db9601a660440e88607b47d83af17d791343394306f29346652e1ea550f30",
+      "ported_sha256": "26b30aebe256969d1de10b39a2d486784d482ae5b4b1b50936832ed17a359a8c"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedRestore.lean",
+      "source_sha256": "785b095d1b121cc8a09fa4af94fb65742fba0976c73ac12fb2cab2725850a2e7",
+      "ported_sha256": "2b67d108d0292ac6dff43ce964803f194ce25ffa0db19ab2d5b540d252a66b02"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedShape.lean",
+      "source_sha256": "68a1b0da78b0688da0577e6bfbcc5cfa61ed4aa7cfe11bc3bcba3fb48ec25713",
+      "ported_sha256": "8d3054a1cf222bd696e33794409d6a5e846d0182fb6f608a9dc60b283b7c0047"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentModifiedSupply.lean",
+      "source_sha256": "ec1e55905d284e0504305e0d34cb9f783c7f2dd3a9f00b05db2a221a12eeff35",
+      "ported_sha256": "703af4c483fcd611e33118061fe3bd696faf4a26cc91f3d8d9d43fac68eeacd2"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentPassing.lean",
+      "source_sha256": "14db70eced2719abfaa260545ea67599b5d0544fcd1566d25a65dd47eaf20510",
+      "ported_sha256": "bab5dde5fa4f608065951079e6298c5179d07cf4ed3201fd887fd61b84042473"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentPassingBounds.lean",
+      "source_sha256": "0ecc68376659316a4e6f8b9bcb06c45956841af5f2ca54b1adc19a13d671c65b",
+      "ported_sha256": "4d7eb4b86d9f476d0b369954a1ab53c18aea19083d5f715c55d95933cf0b9168"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentPieceParity.lean",
+      "source_sha256": "4ba9848ba4af28bbce42e339857d3ac78262d77fae7bea780edb75f39162a251",
+      "ported_sha256": "15fb0375ca83ca9aae22138b2d2a61c07c2dd2726682cb55705eaa1b33203785"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentRestore.lean",
+      "source_sha256": "6ee849ea963bd03288ab270298c875b906f6f127ed02c7fd437ed9c0cee28fec",
+      "ported_sha256": "2127aaa02aededa5dea0368f9fce41edf5a6d1bcd9ab3d672318166c4a32af9d"
+    },
+    {
+      "path": "Gallai/Inputs/ComponentSecondCase.lean",
+      "source_sha256": "6849191edd758a0a009b3d6e9b0b982bb2baad6686214d98c0c641f4665fdbd4",
+      "ported_sha256": "32b7067e35e514981bc6bb19729c6b6c642eebcace6f5f8d200423206996a326"
+    },
+    {
+      "path": "Gallai/Inputs/CorridorAddibility.lean",
+      "source_sha256": "d3e4b1b2fa3fb7e267394dbee52be2dc30f13644768af3c97808f5f46c9d57ce",
+      "ported_sha256": "67db6ab35229e6fa4b05d3f26156f2e2ef5f1f8e60c823a58a4c1ef6b9218ed2"
+    },
+    {
+      "path": "Gallai/Inputs/DonorComponent.lean",
+      "source_sha256": "10792ef1e4460fc2bfab8a6ed875fa1353ab6dc30f6cf73ecb93a85f9331fc7e",
+      "ported_sha256": "7c6258f0125500b68499f8ba77c16e5b2fb0a2cef29d5bdbdd15239ffbeb74e0"
+    },
+    {
+      "path": "Gallai/Inputs/ESETAssembly.lean",
+      "source_sha256": "90f66fc4677b75ef080cd02215316a3a33d4aeaa35e1d403067b60559bc08d1c",
+      "ported_sha256": "4158a199d0ed2ba2b739ff0792c5c3811d2609f7a8e0146676208231d13fe048"
+    },
+    {
+      "path": "Gallai/Inputs/ESETReserve.lean",
+      "source_sha256": "25f94ac4a98faca7a0550a7375e601dc18532b856f74451d603226715c2ff471",
+      "ported_sha256": "22f493ad803ef5d159e7785d36375d3e1559c76f3e60653a7aa699f0049c4cbb"
+    },
+    {
+      "path": "Gallai/Inputs/EvenMatchingRestore.lean",
+      "source_sha256": "bbc16b3372bb4cfc6700a453c02c6128cb368df3acf6658cee4a70fbff1352f0",
+      "ported_sha256": "f3fcaae36f081f8ba069768454e880e004b59a766f4967a1b195282da20c903e"
+    },
+    {
+      "path": "Gallai/Inputs/EvenNeighborClosure.lean",
+      "source_sha256": "3f0c48efb93b8be60319c9b2956e06fec4f1a2fd58262e6245246618cee3e520",
+      "ported_sha256": "8b14c7c4de43d3d60d67907c35000eb46baad8253c3e23249444f09fd00df952"
+    },
+    {
+      "path": "Gallai/Inputs/EvenStarPuncture.lean",
+      "source_sha256": "f0ca2c2ad62b2fbb517a486f3b835d9f9dac33ff435069895f1c0be49bbfc772",
+      "ported_sha256": "d1b339ea6a4a5b5281da5b0518e9ccb56e590e912ebc869b8fb37b209b35a1d1"
+    },
+    {
+      "path": "Gallai/Inputs/EvenStarReserveRestore.lean",
+      "source_sha256": "e07605b21cd895466311a697e7506388915043e66e3435a2b1dd55f4bc1e2f86",
+      "ported_sha256": "632cf1a28de648f8bbebc5579cbf915404e38cb321a12159c129659db714f317"
+    },
+    {
+      "path": "Gallai/Inputs/EveryOddNeighbor.lean",
+      "source_sha256": "cb08c7f5c974165382fb53491a0d968fbc39f24bae1f3b0a369dba1ef0cdbcbb",
+      "ported_sha256": "5a945e157fdd6c28932f79fe90387993b86d11dfd46da12eeee0fc2669d8bd9a"
+    },
+    {
+      "path": "Gallai/Inputs/FanPunctureFloor.lean",
+      "source_sha256": "3665b84fff8434dc05081d6e66856b34a394755f7574ad8a35d33c4e25f0dfc2",
+      "ported_sha256": "7fa69e2fc90c9f3c1969d6cb9c29b6e935c09402fddfe85bbe9cc022f143c6bd"
+    },
+    {
+      "path": "Gallai/Inputs/FloorOrSET.lean",
+      "source_sha256": "ac3db23b776a16d5d51ac3a225b32d50b53bd3a48d564cf66ad984a6ec2c404d",
+      "ported_sha256": "e8f9807ba7f11ec536142a76a3cc64fd833620f6b2df6a9753c1de998c7f7f07"
+    },
+    {
+      "path": "Gallai/Inputs/FloorOrSETEndgame.lean",
+      "source_sha256": "7db37314adf03711579eb44d24f12fe2c02ae4f78783a61c3210d2f23e5db03d",
+      "ported_sha256": "1b8fb3e27a065cef096f245963cbb39d71a596cf6980c3ff7fcc2117cf24670d"
+    },
+    {
+      "path": "Gallai/Inputs/FullTriangleClaim.lean",
+      "source_sha256": "4322270033995e933c30769bdf7d4db279fc01fe2ec0a7b4fd59b6087974aba6",
+      "ported_sha256": "70e084bfbf28044d1c14b905c0b7029c066bfbd2f2f0c8614026f08470342aef"
+    },
+    {
+      "path": "Gallai/Inputs/FullTriangleFloor.lean",
+      "source_sha256": "bf46ab39a3bef8cd1227545eb5491ee36c03845c91662cabd308d4cf067c77fa",
+      "ported_sha256": "9b3744208515ece7ca89e3e29d79a5fe95cb264ab97caa0883c39090a7e609ef"
+    },
+    {
+      "path": "Gallai/Inputs/FullTriangleRestore.lean",
+      "source_sha256": "24603d93003ef4838447818a1fb093ca4f4192770a69b71e9295edf6a31a97b8",
+      "ported_sha256": "897883d69e9671429ef765e01208c8b7763eaa58c58be680f844439d26de467f"
+    },
+    {
+      "path": "Gallai/Inputs/HalfStar.lean",
+      "source_sha256": "2ebbc9058973bdeb64bbac90afd35db9980a57dc2b4cbc7ad6d693627c65eb1e",
+      "ported_sha256": "d616e029b03c4bb488ad28ceaf0f238c42acf7ed50e85757c9b38e5f2e8cdf67"
+    },
+    {
+      "path": "Gallai/Inputs/HangingESET.lean",
+      "source_sha256": "68b3eaf3004bf508b829d5b016f582669379411b72a507fa8be70c3d7b8cbc08",
+      "ported_sha256": "9b3898064638bf4b643ea5073f08067804795bc5086c05c579b74f81a6eea6b3"
+    },
+    {
+      "path": "Gallai/Inputs/HangingParity.lean",
+      "source_sha256": "fc06865aa8cae95df50717580b10e510620561aa8a2db7a10466c35cc1396695",
+      "ported_sha256": "ac42f80c43395f2111e49a1c06c54414967e2a867631feb13035650dcc2fc2f0"
+    },
+    {
+      "path": "Gallai/Inputs/InwardStar.lean",
+      "source_sha256": "4f4c549071284c403a4dd315eb4de45317650913449bfdd135d5461fadaa6517",
+      "ported_sha256": "ff61580e61e4200872a907b6ac4dc5119fb789a913732b678fe21d84e5997510"
+    },
+    {
+      "path": "Gallai/Inputs/LovaszDirect.lean",
+      "source_sha256": "a3e562b02314ffbd255065c91d8cde3101cd5c95ba55e5712efd0931aa40b7e0",
+      "ported_sha256": "6fa9a6d4327a5d2246c44983183c1b9b0ec2954d5042fbf6531c4b6af7d2dec1"
+    },
+    {
+      "path": "Gallai/Inputs/MatchingBase.lean",
+      "source_sha256": "46a0915af9bbfef9c2050367cd5b2f52d3e5e728a674d309d70bde423dfce6a1",
+      "ported_sha256": "43bfad8b2d4236118def10b9260df6015ac6edae3d1b2cab20d52059134851d1"
+    },
+    {
+      "path": "Gallai/Inputs/MatchingPuncture.lean",
+      "source_sha256": "d68b364884b611ec367eb5f9dee222a273bf8e2fd398572a579f19ced33695eb",
+      "ported_sha256": "bb1e6ffa6ecddfbaa95a3fdd48015659834f3a718b7c2608da5f9ef20e411e47"
+    },
+    {
+      "path": "Gallai/Inputs/MatchingRestore.lean",
+      "source_sha256": "5639d9b6dcf565d4d6aa0e2a04ea407660868631c9120a18d263ff7e4d3acd8b",
+      "ported_sha256": "4eda508b21f8aa9c989c77c2db69251eb664e5b4f05cbc7b28f6cde70693e96a"
+    },
+    {
+      "path": "Gallai/Inputs/MultiDonor.lean",
+      "source_sha256": "18f1cb9018107c3a1c03d831af8a4f13b6d7a8dca243ae232af11a4e9f4e6c1e",
+      "ported_sha256": "3e36ca349ffecdada8ad384d9e6daca7fb0b18f76dc4f5a1c9430d66d9a540be"
+    },
+    {
+      "path": "Gallai/Inputs/NoEvenIsolates.lean",
+      "source_sha256": "434aeb521bf5d3b19d550648fbd21c247f16e6b207ce990c03f862838c317dfb",
+      "ported_sha256": "2647e3617c5531b96b9a50e9a1250fc85d06604a2455a3ba7432458ee4df3c50"
+    },
+    {
+      "path": "Gallai/Inputs/NormalizedRestore.lean",
+      "source_sha256": "d68ef8f738b6c03736a63a8e7701fcebb9459c0d1b7d82cc96923c23b9003c70",
+      "ported_sha256": "27eb5d79424be4f1588f35dde99e7b093551b34ced951a9d2f3f38861ba41a02"
+    },
+    {
+      "path": "Gallai/Inputs/OddEvenStarRestore.lean",
+      "source_sha256": "4ad7e9d29ea3fe9508892b9be21f66ab06e2b2260dbaf7eb57f6c6443f41cc74",
+      "ported_sha256": "0467f17eb07deb37df75591206aae437034fa3953ddbbed3e6a636cf57630efb"
+    },
+    {
+      "path": "Gallai/Inputs/OddHubReserve.lean",
+      "source_sha256": "f6b67124ea45517f76c51f295ba88cbf03865d11743c5e67b377546effea6105",
+      "ported_sha256": "24a61e3cdbb82ee0c62bbcfea4bb44f3cbfa0f948683e8541b4b693968ee61f3"
+    },
+    {
+      "path": "Gallai/Inputs/OddNeighborClaim.lean",
+      "source_sha256": "522d9744ea7afb5a3d7284b32ba16c87e84daa755563a38db9577c55f47aaf49",
+      "ported_sha256": "4762a5b13e8fab3f755f37c01b822ca92a6a0ffc8f8db0cf5b365bae488e7220"
+    },
+    {
+      "path": "Gallai/Inputs/OddNeighborDeletion.lean",
+      "source_sha256": "8b81cf7bbedaabcdbe1cfee92badd534da42f93ef1dc48f74b59d39533773551",
+      "ported_sha256": "c0fdf9dde269b7063248b0d720a68d2616c1b9eb94c4c90f2946bd18cf26520f"
+    },
+    {
+      "path": "Gallai/Inputs/OddNeighborFloor.lean",
+      "source_sha256": "a07dca452bb57ff7a9858ef867c696332d3046d2c3340bc041b6ce628ff137ff",
+      "ported_sha256": "e43091974dc2fa1d9bf51edb122f2286065419372c843fb4b36ebcbb9fd11d83"
+    },
+    {
+      "path": "Gallai/Inputs/OddNeighborParity.lean",
+      "source_sha256": "8c8429dbb6f9919ab03fef84fc130eafa2717d50c5b49ec12e7ff23979bf3739",
+      "ported_sha256": "04b33608fe0d1064ec465091d57a3c04a083c9b87a82e2190426cef715d368c3"
+    },
+    {
+      "path": "Gallai/Inputs/OddNeighborRestore.lean",
+      "source_sha256": "7d38473cd075a2d437a2faa3bb3a1bc398f6ae59a4e4fc4191183d0488cfa76d",
+      "ported_sha256": "7a81b9530ba8fcbc050e3b68b41bf578798cfceb4e024c6bc37d799b4c73fc65"
+    },
+    {
+      "path": "Gallai/Inputs/OddStarAttachment.lean",
+      "source_sha256": "c000f9484ed41f79d88ff1bb78db05acbe092bf02bbbe6de6c56a219e5591b7e",
+      "ported_sha256": "646b871b9a312445935d11b0d3d8143dc1dc44935a0ef2ba4063d7319c057841"
+    },
+    {
+      "path": "Gallai/Inputs/OddStarBoundary.lean",
+      "source_sha256": "720f1eab488f4d3e81d15243e718ccf91b5bc6f1e2b175aa98ea12214c2bb810",
+      "ported_sha256": "91afebad0b0314f285a9401486713e969d72e0d376e99d51aff1e3679d7185f2"
+    },
+    {
+      "path": "Gallai/Inputs/OddStarPuncture.lean",
+      "source_sha256": "1968a17883a1e4835f47416331e37b3bd46ca8959fdf46e4ceeb797fd081aa25",
+      "ported_sha256": "b03e6bb2d3bba91bb5f2b170d8e639464aa9e6346a53bd1bcb5bfbb96e950f52"
+    },
+    {
+      "path": "Gallai/Inputs/OddStarPunctureExclusion.lean",
+      "source_sha256": "f311008ff18687fb473d353e2f7d9db2d87986b9d17a7e1e91178f5a855122b0",
+      "ported_sha256": "cd960a83c03e54ceb92609688ce0e0ceb194af9abf2772aaf6df1735d4643561"
+    },
+    {
+      "path": "Gallai/Inputs/OddStarTwoBoundary.lean",
+      "source_sha256": "278b4cdf421f192eb3f74e47d91c1fd3504100ea8f9491ea9f8e5eead7c2f974",
+      "ported_sha256": "838d0f697f67f135f1cbb0014fc9b6f39508f777df1736a4df2f71fa1e3e0fbc"
+    },
+    {
+      "path": "Gallai/Inputs/OneException.lean",
+      "source_sha256": "a1bd06133f0f6db56cd4439c505457aa6e7c13e1e88d41307ad91dcf93f4c62c",
+      "ported_sha256": "8800ca321a6c22f6ed371aaa65b39fe87deeff812985f79d8ba5dd57887e2296"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionCutConnectivity.lean",
+      "source_sha256": "91aaf2c53646c78e99951a95dc231308f75c43a69f59b76e61a8eff8d32a8bdf",
+      "ported_sha256": "c7a28b73eb54064a44cc60df8a50d80884727ab77901e86d7c52322cad6cdd98"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionCutEven.lean",
+      "source_sha256": "d5ba099819021380db6446749444a0cd60b18af580709eb24d08994b1b379d8c",
+      "ported_sha256": "7380cd606c8afa06aa064cf5124860878b010b5b104181a8cb9689bb27d97b33"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionCutOdd.lean",
+      "source_sha256": "eec2ceabba8a99aea2dcbec8e2928eeefc71bc3153828beb554b83cae84d56a2",
+      "ported_sha256": "afefdbe4abda68d83989a82efa250b40e00fb3387190d4f6575b04274318401d"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionCutOther.lean",
+      "source_sha256": "46301dba3f29e4ca2776b249833097246bbab2fe7ef0f97161a65bb77ef01ea2",
+      "ported_sha256": "b8900a170ee821db40b28ffbcc1ddb755942d20dc2bdb9965053ec9965b27f4d"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionCutSelf.lean",
+      "source_sha256": "950d913d574a49988f0910d89ff657133fdf1c489edb93742beccb49e71e1544",
+      "ported_sha256": "0e8705df62d56b17f3c256649af3d6507e9bc7f61f10fe3d0b18f1925c4dc6f5"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionDesignatedZero.lean",
+      "source_sha256": "da79a654bef9dfe2b12efdee9ff74241e21b83354847ef125681924eb2fd5d5c",
+      "ported_sha256": "17fb471895f5bc20eee200269082e51d2f74b800ced720f6fd048d47a6608db1"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionEndgame.lean",
+      "source_sha256": "f28dda5a4869a9b42e0f16bf596af92d2c7019c73baaf3f4d7889480ba7fa292",
+      "ported_sha256": "049bad2154b649863c5d5c627aa116d1a262c836f7afa09ffdb8a13bc9ca8416"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionOddEDegree.lean",
+      "source_sha256": "b3c3dbb92f9141705d896a21783d35c7f1fbab781cf1e50fe6ea57b1bd25a8b3",
+      "ported_sha256": "ef9c217c395e5066291df12941dc661f41d4449f260643c2d2a31f550c2850cc"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionRemoteParity.lean",
+      "source_sha256": "1bab5afb00e40ce50889ca8bd926b14dbdc8ccc9a597ad9e3b269de4fc99fbe4",
+      "ported_sha256": "94774437e46a661a0946d4e5cf9fe5aee5989eed131169d465df7cf1d96b7b1a"
+    },
+    {
+      "path": "Gallai/Inputs/OneExceptionZeroCaps.lean",
+      "source_sha256": "86aab5e7166e9266c71304def01aeba01c6b34a13dd64c26b589a6fdb6b14eac",
+      "ported_sha256": "a2a3712418e2429ac0e54e1f0f1a49b3c4347b87dc2ec1e112e59e716a71cb27"
+    },
+    {
+      "path": "Gallai/Inputs/OutwardStar.lean",
+      "source_sha256": "43c1f5200221d0e5a34fde5487d136b2ecf8953888ff82b9f2bd5cb30554ccd7",
+      "ported_sha256": "8fb87c891d8088bf1de5833c7a2283ab8089c346b165807aa337502a8e3600d7"
+    },
+    {
+      "path": "Gallai/Inputs/PartialOddStarRestore.lean",
+      "source_sha256": "fbcf1aa5b4356683cd5977d8f3aae0bef63c8eb79539b235f47e1e9e72a9a612",
+      "ported_sha256": "8fa9d8a2af11411f86464d1ce2289bd5cf047c53069149ffc223999d2ae657b7"
+    },
+    {
+      "path": "Gallai/Inputs/PartialTriangleRestore.lean",
+      "source_sha256": "6d8cc7646dcf4b418bc71f555381e9c10cc24fd2dc488a748ec04d1eeaed70b9",
+      "ported_sha256": "ff94f8fb25c1b6023a4a769c3e14572cecb18252127ca7b0fb9376c3b29de9f1"
+    },
+    {
+      "path": "Gallai/Inputs/Predecessor.lean",
+      "source_sha256": "01d16e2c583c2eed93673504ce51496edfe7be0483dab1dcdef952cc96822531",
+      "ported_sha256": "f43de38770aa02a7d922775c457ac71b597e22cf40b129b0a226db172551c379"
+    },
+    {
+      "path": "Gallai/Inputs/PreservedSETBoundary.lean",
+      "source_sha256": "b171706915c061b7055876be010fcc711d8bba6027b7a8a759cfbb8260f2102c",
+      "ported_sha256": "e308598f9a690d232107729d2991adc18bdba9e79c7cbfedb14c500da06026cf"
+    },
+    {
+      "path": "Gallai/Inputs/PunctureCaps.lean",
+      "source_sha256": "77d6e179b23fefccea8c1b6fccfe8d432da4e0c0c18de8b133b0ad0e136c2ac8",
+      "ported_sha256": "951427bfbb58c447e5bb0e244698255c99a8883138e84c8eadf385e59802f415"
+    },
+    {
+      "path": "Gallai/Inputs/PunctureComponentFloor.lean",
+      "source_sha256": "afab1e4032bfb0a081695181dc4175ddd33fb4e9b47ad68e9da7fcd76120ba0b",
+      "ported_sha256": "eb7a76ed16f4ddeecfab5386e03e4cd1adea50f2c85007521b0b4e9c3f38ec28"
+    },
+    {
+      "path": "Gallai/Inputs/Reachability.lean",
+      "source_sha256": "2fdf90ba8a07b330b4a5aa30e94a817b1a95a680c8a142b84fd692267e11796a",
+      "ported_sha256": "4ca4b8d95b9431cc41843d406690cc724f3a728803a9b739aad4f2e2946aa06b"
+    },
+    {
+      "path": "Gallai/Inputs/RunArms.lean",
+      "source_sha256": "2fcaf2bd0754313ea078efccd99a89e6c027afda78f2b48a3d934725f0f39103",
+      "ported_sha256": "b4fb8c6aba3f50a95021746195c6575ef480d795544b8361ec58a36055931433"
+    },
+    {
+      "path": "Gallai/Inputs/SETReserve.lean",
+      "source_sha256": "036093bbd4857a70161a4b1bc1666201a5593514597ae6a2fb44ab06453b4e56",
+      "ported_sha256": "4ba72b8b2f28e32dce0eb849b479829463f1bac6deed3bf18394a92ea34d86b7"
+    },
+    {
+      "path": "Gallai/Inputs/Selection.lean",
+      "source_sha256": "204488178e0c7cbbf5865dddef716c6b7b0506b7c3c1f5cc90db161e9ba48834",
+      "ported_sha256": "244c8e40fb488c260e7cfa14faa23c6d62a2b51dc7ad3a32cd3c2568cf35e996"
+    },
+    {
+      "path": "Gallai/Inputs/SingleBoundaryParity.lean",
+      "source_sha256": "0c4bec17fb18ca60be626eff4ba57f96a03d49b5a0fc1f76aaa96ef1fd9e83f6",
+      "ported_sha256": "3e37c03ff66cf756d2f284c4cfe3debb2321f6561f229f25b524aa21d582c95e"
+    },
+    {
+      "path": "Gallai/Inputs/SingleEdge.lean",
+      "source_sha256": "f18bea4b987d6877bdd5c213d6639ebbeab9bfe39b88271c57af403b6ac7c1ea",
+      "ported_sha256": "6db9cdabd5c610edc43fd2636bd4a03037b2ee7aecd9c29d8cfe80ba2fa1ee73"
+    },
+    {
+      "path": "Gallai/Inputs/SwitchFamily.lean",
+      "source_sha256": "0afd6c86dcf266e4ac65e9a5489d80e8b00844219c5909908ee2965a02ff1a50",
+      "ported_sha256": "f16732f249bfeb90adea94661050c2ae93c8117879041d08a695730dae1061da"
+    },
+    {
+      "path": "Gallai/Inputs/ThreeSpokeClaim.lean",
+      "source_sha256": "3a7ea572f432a2d1cc539ae3519ecc1ec58af2225bf8541b864f3588c23d75f7",
+      "ported_sha256": "269fc73dea654f67ec9eb1e8ebc66fe51b7a696422bbd52a7ba640a1e5e7cbd8"
+    },
+    {
+      "path": "Gallai/Inputs/ThreeSpokeRestore.lean",
+      "source_sha256": "2089a569f29b913d8d8ebc32c1a01b97015ccd2930fbc62f9b62f01e7612005f",
+      "ported_sha256": "60b13c3ed623d08553dfe3acf32aeff99ca928359e88c616daaa985a079dec9f"
+    },
+    {
+      "path": "Gallai/Inputs/ThroughSwitch.lean",
+      "source_sha256": "906558b2130417fdfd78aa364a1afcb85607a8453a74bea3d24d93b7133675a4",
+      "ported_sha256": "a0583bb8ad048709c9ef5c61c41ba0d099c8d8a1634584a6397f13a247672210"
+    },
+    {
+      "path": "Gallai/Inputs/TriangleIsolateClaim.lean",
+      "source_sha256": "e25e7ca2d7a3931466178e2804500b0ad874fc45062fd12d4f516b777f07da32",
+      "ported_sha256": "5414a5c5dcc79d74b8d7c2678b4937b887909b0ef6270bf43b8f1cf2970c6077"
+    },
+    {
+      "path": "Gallai/Inputs/TwoEdgeAttach.lean",
+      "source_sha256": "d2ba6f6d46511f16152b7fcbd7e1a945e794ac647d4ef070495a3b5d7feba409",
+      "ported_sha256": "d913ea552d45a5f8106433d3ae472e8095cf986682d3f2a78bc5875a0d78c224"
+    },
+    {
+      "path": "Gallai/Inputs/TwoEdgeClaim.lean",
+      "source_sha256": "946e38c168dd7bc3bfd936f8a5a4092bdbb2ae77c8a38bfb430faea753e35c22",
+      "ported_sha256": "6c60d6bb0bfa639d915730f2336cffe3fde16c2cb302b9bc5a1d2bb85c30fd0a"
+    },
+    {
+      "path": "Gallai/Inputs/TwoFullHubClaim.lean",
+      "source_sha256": "0a9b31b4e504124aa119160603bbd7d72fa070214b6172368ae99726c619743d",
+      "ported_sha256": "8ea86f5b9e81c80cf9d4b8607e8dc7c900d981e3dd1a2034e383b306f00ea4ce"
+    },
+    {
+      "path": "Gallai/Inputs/TwoFullStarRestore.lean",
+      "source_sha256": "59a17303fb48b3ee5939b5f077a30bfd5b4775e6bcdc6d121a71e4891d2779cb",
+      "ported_sha256": "59b805486cc0b0b5938a0a1d1d4ff8a5035953c0bddffc71155cd843c066a1d3"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTierStar.lean",
+      "source_sha256": "9ab4c433e3b1155e6a401b6dee1dd98d514eff2d52122e626e499d2ad4c2e896",
+      "ported_sha256": "e90020413248dda9f13fe1686814bace3d784b97964d7cfef6b708a481e90720"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTriangleClaim.lean",
+      "source_sha256": "c1aaacca2b0e849b444dd19b1c322719f488af1cb504035b026cb92536432b54",
+      "ported_sha256": "047e5ee190978f931944d85d7dc179fbb0565cbfa3ffbc9d29a6d579a5c7a047"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTriangleDeletion.lean",
+      "source_sha256": "e82be4aa18fcd5b2de1cf22323891594d674057c40220b99b889329bb8af57d6",
+      "ported_sha256": "ee0bb3f8832cc53cff205397828ca6971c2525ac95e0efd9684bdbe09f932343"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTriangleFloor.lean",
+      "source_sha256": "a834558aafa9c993daf7e5be6567f0143a4f61f336d3af12f644d6ba293ac9d1",
+      "ported_sha256": "fa60cc2c1f4e7ca99b1dd99992d59b5c8d73552b5554fa0e902c3c94d2e3cbd6"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTriangleFullFullRestore.lean",
+      "source_sha256": "5cf1810d71a1c9e16269c64a19a3c4ddfe2e13706cc0db13c7c487f73253950a",
+      "ported_sha256": "ffddcfb8615bc49912725208f9093269b8e9a6635c6e15ddd1a325e7c77960fb"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTriangleFullRestore.lean",
+      "source_sha256": "c68a0c6a4dd4d7f152cb2d179bbd2441777f2a7f3bfc9e38bf7c102ca1b4103e",
+      "ported_sha256": "c8ad680135050924dff7ecbaeb2a050632dd250dc7f466d344164e9bcc5cd950"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTriangleLabels.lean",
+      "source_sha256": "41dd08931c3ce9da8d4d807c8c0ec5c86edc053386ff4eb84ab9b5b3b6894c22",
+      "ported_sha256": "a972c20f524d63812acea0f0d0cd8797e1b52f9bf3b024e19a4a523ee0f4c03a"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTrianglePartialRestore.lean",
+      "source_sha256": "ddfe321d384c87698ba332a63f973fcf0e3725a5d99b175f830b9e61b76a16ae",
+      "ported_sha256": "e8f9684484b2cec69e05a90d3a3ab748d9ca4ab60e7e5e7162a9311b01f0c859"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTrianglePrefix.lean",
+      "source_sha256": "b15bef9ea05eb6cdef78d29dad8d7cbc669723d4b6513e429b2d465d9cd1caa6",
+      "ported_sha256": "8ead155870c54ca622a01eba8f5cc167a02d4f63ee959a983e7d77319cb6c79e"
+    },
+    {
+      "path": "Gallai/Inputs/TwoTriangleRemaining.lean",
+      "source_sha256": "397b1d0de5927e0b2163efa366602b949e255c429420653b52f93790146f4f13",
+      "ported_sha256": "e3f1eb70b57cc7c5b80eaec294df4bbe5760174b01a2e35c6d72ab2147f7f78a"
+    },
+    {
+      "path": "Gallai/Inputs/UniqueEvenComponent.lean",
+      "source_sha256": "c3e496fc005f925ec352dc559be23b50df924f6ac44dae9abcec41174c1a8c55",
+      "ported_sha256": "2f7dd888733a27cad594a431600f76fed5bd75646add6fc2f3ef1080285eb962"
+    },
+    {
+      "path": "Gallai/Inputs/UniqueEvenNeighbor.lean",
+      "source_sha256": "42647ab559bbbf9e27e9b5ec33d65fb4621065554723a502ad30b58cc45cff5c",
+      "ported_sha256": "bcfab657347b7feb3367f6557184c8550f265e97325c8c0b6dcf6c009039ec80"
+    },
+    {
+      "path": "Gallai/Inputs/UniqueEvenRestore.lean",
+      "source_sha256": "299ecdf11af6873b7989f1ab6b9a7d12a67119a6ed9182336ae95ae054cc0cd8",
+      "ported_sha256": "e361404538f9c123c4557b90681b41c2d9995acd61941eea737e28b2c117401f"
+    },
+    {
+      "path": "Gallai/Inputs/UniqueNeighborClaim.lean",
+      "source_sha256": "b4b162a03688176c34289ca223dd8f6da99d9cf9b1f01c666094926946da4bf5",
+      "ported_sha256": "15030fbb51eda5144f29f9fb22be9ba0287866f90571605be9db8c722afec856"
+    },
+    {
+      "path": "Gallai/OddOrder.lean",
+      "source_sha256": "969aa5cef85be9874acb06fde10cce03d3d6f32370eb1b32eef9f51c1783575f",
+      "ported_sha256": "027ec6f3b49bc30cd6349df9df69e1435d9e24e3819e37a290c43a91390eb683"
+    },
+    {
+      "path": "Gallai/Operations/AbsorbPath.lean",
+      "source_sha256": "f8ac76f3d2214d92b7fc9c9bdc5eb049e3f2b7e84ea7f648dc81ad24eafb42eb",
+      "ported_sha256": "229cb010c121ec103821b5d7007a3da2aaa69c5c9775906370ed4fa92d8da037"
+    },
+    {
+      "path": "Gallai/Operations/AddEdge.lean",
+      "source_sha256": "c6b0219bb4a36e8274254cedc5c47fe50c73c37213a8bc9a51fecd7822c5a186",
+      "ported_sha256": "e76467176a837f568435f37e832d99a3219760458ca92da7d775300453d795f7"
+    },
+    {
+      "path": "Gallai/Operations/ArmSwitch.lean",
+      "source_sha256": "aaebee88847c43afcf747b133659ef6f2aa25ffcb6829071e9551624c7e131f8",
+      "ported_sha256": "5c3943b8f7100bf6b7aca4178251d8c3fe22bd681cc9750eca74a2a68420c817"
+    },
+    {
+      "path": "Gallai/Operations/AttachedMerge.lean",
+      "source_sha256": "59c298be08cdfb4a963ca984c0119eec33cde12f40c86fd186737f8c69c84250",
+      "ported_sha256": "84d733be6cbad6367f214814d19e0540dba0447e14aaa101c2aa51a74af4996e"
+    },
+    {
+      "path": "Gallai/Operations/ComponentAssembly.lean",
+      "source_sha256": "821482f6dd78ad7405c003b44ac81a0abfa99afab3ddcf57b345c1b2e1957fa2",
+      "ported_sha256": "b00862eb23f72e37351aded87b82106ac77f5223d9670f21b5b2daf690c7c756"
+    },
+    {
+      "path": "Gallai/Operations/Concatenate.lean",
+      "source_sha256": "cb6161e9d77d03f08582e21cd7d2180b6f525fb7a827aa48b4d1f17201d82678",
+      "ported_sha256": "2d75cab9ce304a1a13cfa5b8d1a78479dcbef67eaede851144b2759d49a279b2"
+    },
+    {
+      "path": "Gallai/Operations/DecompositionInduce.lean",
+      "source_sha256": "b786a80215d48072934e684363bdd33b13a2f15553293d75cb68db2908be2aa8",
+      "ported_sha256": "c0cf5998e727045d70d56607cfb0fa847fc68c2ae11eaa05ad8c3a33c688a316"
+    },
+    {
+      "path": "Gallai/Operations/DecompositionMap.lean",
+      "source_sha256": "8f829ad1e37ca0f2dc86bddde4f35127b6404657dd2d4b9f797d46ab60bb0bd9",
+      "ported_sha256": "7a4a56e403227f3736aed9f4e9c80cff023db7a510695c132119d826a6c60594"
+    },
+    {
+      "path": "Gallai/Operations/DecompositionSplit.lean",
+      "source_sha256": "22c05b74896ff4424f07e1038a8d56bbbb9e036459e1577380679b06b9a260a4",
+      "ported_sha256": "e5a6fda95e786e968c89a0a10afb563159e3cad20b7f4a70af523f99da8b9973"
+    },
+    {
+      "path": "Gallai/Operations/DecompositionTrim.lean",
+      "source_sha256": "18bfaca32a87b913e7dada6b71837c8bd8bd6f63ea9c206165c9bd4496fe4ffe",
+      "ported_sha256": "87dc5cea14b21595c4a6b76660cb17b86a2401c109458191530579c9c0124ef8"
+    },
+    {
+      "path": "Gallai/Operations/DoubleMerge.lean",
+      "source_sha256": "edb325e16f9edb41d4938313d254a56a216de9c9922dc8927b12ba00fd767821",
+      "ported_sha256": "53e761e5eb29a051d19d2b2d6c5da2c8f687cc7674422b03c9c5d078b95fb847"
+    },
+    {
+      "path": "Gallai/Operations/EraseCarrier.lean",
+      "source_sha256": "8a84e639fa755cbf060b1f933216c8997f13a7fd069e0d3a579f039c56dfefa4",
+      "ported_sha256": "d376e0d7f22412fd79b04cf2bea764055b09a3a2a35cb7d729f8561bbc8330ee"
+    },
+    {
+      "path": "Gallai/Operations/FiniteUnion.lean",
+      "source_sha256": "79755b083b05f849a3913faf12104d67733a4a0083c2e3fa856047429337e713",
+      "ported_sha256": "33c165bbe5e9a7e9a4ee5dbb087f7ac1c70ae71d9868e430a03283cd057d8516"
+    },
+    {
+      "path": "Gallai/Operations/HubRelease.lean",
+      "source_sha256": "1d3e3557f6d1ea218c3318abc99138e8f6203d66f0b70c89fabf749fbe5a9daa",
+      "ported_sha256": "34755261dcbc57b78f976971e92384e013a506e14269bbf584344bc59dc4b21e"
+    },
+    {
+      "path": "Gallai/Operations/InsertEdge.lean",
+      "source_sha256": "f501d06ed4f10523d7e031bc8be7fd903152531e9128fc8d9854906e81b5d7cd",
+      "ported_sha256": "6dd27667fa80167bf2a0c261954df31593c7f51758a1df37c443575a297e237b"
+    },
+    {
+      "path": "Gallai/Operations/Orient.lean",
+      "source_sha256": "a337ce5c8e441de925add202f0001628c648ac07ad0526942b8f2ecfe250382d",
+      "ported_sha256": "fbdd2def8ebe859e8cffe7b4e06dea26ddff228084251d949e710359ef72e8ae"
+    },
+    {
+      "path": "Gallai/Operations/PartitionAssembly.lean",
+      "source_sha256": "aad497622c5b3f1f8c3b1a65b382ae602354d72c65e3324ce301517aa0041020",
+      "ported_sha256": "50dcefa0ed4bc9fd72b9c2399431931b29dbe2e9534e5e1c0328daa9082f18a6"
+    },
+    {
+      "path": "Gallai/Operations/RemoveNewVertex.lean",
+      "source_sha256": "0d1b62d7e11c1aa2427f0e4c8ddce1e894dee9bc84644bb1ff1f8609f72cabb1",
+      "ported_sha256": "4bd96c59e4c40f651d28b6b95f86213294e65a0b348268083afa924ec3c1d4dd"
+    },
+    {
+      "path": "Gallai/Operations/Reversal.lean",
+      "source_sha256": "135feec29a9b504ffab025ce97080767ca55cbf2798a4f59d86778a202fac0f4",
+      "ported_sha256": "5a0412a6240068691eb9e0154bfe59f72f4ac783a686218d7fdca11130338907"
+    },
+    {
+      "path": "Gallai/Operations/Rotate.lean",
+      "source_sha256": "add967d552dce05282aaaf440be1059b126e6ae8892d757c90d7b97eefb5afd6",
+      "ported_sha256": "c2c5d2081db11f885097d7276d4e49d5c25dce5c94f0f64680ead3c26c475134"
+    },
+    {
+      "path": "Gallai/Operations/Shortcut.lean",
+      "source_sha256": "74c31a34378e15577571e6add06ea11dc78d220e7a78dc8b0a00c5a5f5da6ee0",
+      "ported_sha256": "e43799ec471cb3eb001d8e528bfae644127c0fdd04e2eb55c91235ff744c6db9"
+    },
+    {
+      "path": "Gallai/Operations/SingleMerge.lean",
+      "source_sha256": "55042386c78afb4a98d5ae3d36275f95d56e6ca121ff2615ac2e9eb33284f806",
+      "ported_sha256": "c80b70958eb40fc958aa0d37892ef0353468f1865e5ef544fd66abd84641c871"
+    },
+    {
+      "path": "Gallai/Operations/Split.lean",
+      "source_sha256": "8091b3aeae2c7c493a654343de82860dfcb9be85b60a207043d4d3b358523b2c",
+      "ported_sha256": "69130c6c674445cedcd6cb1a1d3458b56095d9c59b218c5e5cc964cdcbe9764b"
+    },
+    {
+      "path": "Gallai/Operations/SpokeMembership.lean",
+      "source_sha256": "abbc7ed6ec8881e2a4f53a7e61cd398f40186fc3e32889c8647d30d5b3d77866",
+      "ported_sha256": "7159e64df95c41be1979b76b413c4715fec33b6dfa41c581d5a2e446cb3f0724"
+    },
+    {
+      "path": "Gallai/Operations/Suppression.lean",
+      "source_sha256": "0d6d74ff237f5d873708ed61550420a804d5921fc0b980588f97c3f56200cf31",
+      "ported_sha256": "41997d9278c90d4df3d50aa75a521595fb6cf726f3adbbef35553b1e7167c5df"
+    },
+    {
+      "path": "Gallai/Operations/Transport.lean",
+      "source_sha256": "9cd56f581961f51f78d30b3129013713f3fecaf42e9a841a8352e5895dfb8029",
+      "ported_sha256": "c6cad41de902bb58f5ab6599f8b00f2a3ca42a20ff2f13e21bd55bea98119ded"
+    },
+    {
+      "path": "Gallai/Operations/Trim.lean",
+      "source_sha256": "b69473b9608830ed98b1cb9a703d64286b4a9b1104524a08c1af5c91f2983fc5",
+      "ported_sha256": "33f4275d1c9b3e8d230925893723522b94f7cded1115e9b8e04a714c2fe16802"
+    },
+    {
+      "path": "Gallai/Operations/Union.lean",
+      "source_sha256": "1ab19ae8ce12753a54ee5b895a065ae31591f626bb8a2c9f738091b1bc277bf7",
+      "ported_sha256": "7a70fee2b4befcb337bff97c64205b27dad98fdb851451a9fb7781373af8e147"
+    },
+    {
+      "path": "Gallai/Repair/DeleteEdge.lean",
+      "source_sha256": "95f7316f09dec017915e698fb9313d17080ec9c894d060d09f75622663a7aa41",
+      "ported_sha256": "ff47e8a5cb18fc8eda7110c40d62c7793f7cbb08664b81ff1e5234341a10f676"
+    },
+    {
+      "path": "Gallai/Repair/Endpoints.lean",
+      "source_sha256": "d130f31d011c160757f982e80e7fedd2d561a6d012ad020df977d1319277d76e",
+      "ported_sha256": "ed19c3b1a7e1a09168d9599325d8773aa77ea68bcbeb40ad5b14cabcbd85df33"
+    },
+    {
+      "path": "Gallai/Repair/Exposure.lean",
+      "source_sha256": "c82903e328aa3cf317bb46636789f41ad8c5cef09e7e167964a08b4338a62cfb",
+      "ported_sha256": "0f238b3a4927e59ac70fa9f011a13406f7a2d955100fe265ade0f7cb5db1154f"
+    },
+    {
+      "path": "Gallai/Repair/FirstEdge.lean",
+      "source_sha256": "912e316806aaca2f58e4966360a2d83d0239b45776ad9a78d89fac538aa28f78",
+      "ported_sha256": "52812de7725b3f980156fcfd8f0e0d271bbdc74c81a921cad067b8ddf844d61e"
+    },
+    {
+      "path": "Gallai/Repair/TerminalEdge.lean",
+      "source_sha256": "8a958e13be12f53e8bc386be86894af2178989e8fafd24ac2fad6ffbd7b674cd",
+      "ported_sha256": "362f8864f9c97c5e3b7c72e957b23fa7b73eba1ff59c66f3d69c6f85e1aae0fe"
+    },
+    {
+      "path": "Gallai/Structure/CliqueComponents.lean",
+      "source_sha256": "0faff9209cac6825c2fff91f72266be3980fa304a88643faa34dc673bedafad8",
+      "ported_sha256": "916e3e7faa6ecf0c6920e13df4e9ca057266c53056de5370adac64424acd78ba"
+    },
+    {
+      "path": "Gallai/Structure/ComponentDeletionChoice.lean",
+      "source_sha256": "00d27cf5f20ecf5955e0d319156c303ab6969b6dc80533c3d7582648c63a362e",
+      "ported_sha256": "f2e623acc5fe7b315f6eb1e643f71a890d9823799570d5c7a577483738e5810a"
+    },
+    {
+      "path": "Gallai/Structure/CorridorAuxiliary.lean",
+      "source_sha256": "75b766c32423116f8a150b0f2fff63eeceba9ef75aede89e03d94ecf804c2b27",
+      "ported_sha256": "76792b437f03e376356447c7110cebf236e78c594a6f6a780bfb8de7a445b454"
+    },
+    {
+      "path": "Gallai/Structure/CutVertexPieces.lean",
+      "source_sha256": "cebcb9bef359b083466f17de47abdfbacdead6fb5a3dac036ba15e05f039ce9e",
+      "ported_sha256": "3121772cbf07c900dcbdc891930fd25aef9dc5aa9a483adce497f1071b71b690"
+    },
+    {
+      "path": "Gallai/Structure/ESET.lean",
+      "source_sha256": "cff65e333eabed869da1c216b0661a6cafa58b551973edddf77879f7b1fe2cb5",
+      "ported_sha256": "d64658d7a339922401b641b32ba3e99ca23ede19c35ab3870ccd70fbc8354cb9"
+    },
+    {
+      "path": "Gallai/Structure/ESETAttachment.lean",
+      "source_sha256": "05f904fda72d37f1874bf8a9a1b77f9b82b6bf8b22f6091abc396c3df4d203ba",
+      "ported_sha256": "d3ca61bf5c06d6bdf21773f9654fa8883fed12b47e91d425f237e6acdc48d14a"
+    },
+    {
+      "path": "Gallai/Structure/EdgeDeletion.lean",
+      "source_sha256": "1e01fcc6533b23d9488e1817c910997cee2a881193f86288d53710eefdd29f98",
+      "ported_sha256": "c4473bb8963633a5f8650ae087702c9b80ab9416ec29ca3c43e99d1fbc07056c"
+    },
+    {
+      "path": "Gallai/Structure/EvenComponentPieceUnion.lean",
+      "source_sha256": "a7630868e21770698bf961f2db6ea91031773454d6555148a085ea8dbb404391",
+      "ported_sha256": "5fda4edfc58ab25d4e272df6442c99662d63bbe0c57deb8161b52113f365d682"
+    },
+    {
+      "path": "Gallai/Structure/EvenSubgraph.lean",
+      "source_sha256": "aa4084be2e8a72a82396a9fe0ef231a0c555718f014a727c84429ee9a81faad7",
+      "ported_sha256": "6b8e058c64a5d0158995bceec7e7738f042d5304f2c25f49fd05b83796591880"
+    },
+    {
+      "path": "Gallai/Structure/EvenSubgraphInduce.lean",
+      "source_sha256": "fea1a2450e9024a78ceec29f289a430b064280279128dbeb21e852c05de311cf",
+      "ported_sha256": "eeccc14c04d4c15e19e1e4555046e3dc0494f615e6e32ce624b64db19ce5bb21"
+    },
+    {
+      "path": "Gallai/Structure/HubPieceUnion.lean",
+      "source_sha256": "02b92e5a98f6f86efd628e982709d1b4d46b9c48d9599625a14da0bfa42ae481",
+      "ported_sha256": "2ff34c90c62f128c27f9cc697853be993587b891d80d8479cc4501310b14cbb6"
+    },
+    {
+      "path": "Gallai/Structure/InductionMeasure.lean",
+      "source_sha256": "8ecbb224754c0dfec271f78e525e198961f7d05a954e3f5da5b9cb8e61fa1fb7",
+      "ported_sha256": "a092d2ed1db056c526de90c38073ca9ec55af5d84034dba035cc47b56c30fc21"
+    },
+    {
+      "path": "Gallai/Structure/LeafTransfer.lean",
+      "source_sha256": "b842edaa299aa377ece5a9f429863dcec48ec0ffa4120dd07c171b3d8e636cf5",
+      "ported_sha256": "cff90a599f011109401ae999d5eb2d8f7422158af40f884c34f6ef3494073b3a"
+    },
+    {
+      "path": "Gallai/Structure/LeafTransferReturn.lean",
+      "source_sha256": "0034d56122e0fc7ff3b30f9bae61f41330d6930dab2507c783038b221702dda2",
+      "ported_sha256": "a7bbecf05796f12fa08c827675b97d8dbb54603fd75b6bc96bdb5e4392de3f7a"
+    },
+    {
+      "path": "Gallai/Structure/LengthOneCorridorAuxiliary.lean",
+      "source_sha256": "d41c403d17a4f99a84331ced74cc3e69549a7262525507aeae29c33ec894afd8",
+      "ported_sha256": "8cdc60b53211d2e50a7471e2a594e917c10f0c0fdc66256f658dcfe5dd098413"
+    },
+    {
+      "path": "Gallai/Structure/OneExceptionPieces.lean",
+      "source_sha256": "724e0b05d45e5981a5638b50ea8dc118a9e62028e1e0828b0b18958a0db34af9",
+      "ported_sha256": "5dd58eccca3c800d0680cae662469ad23c98c6a8d241cac030ed60b3bd8cfa2f"
+    },
+    {
+      "path": "Gallai/Structure/OneExceptionStarPuncture.lean",
+      "source_sha256": "84f38b07308835a60fd052d483dfc5f46018e3cd3075bcda44c21329e715cb7c",
+      "ported_sha256": "46f38d8275aa7bdf6e1f9327f11c1545c1387a52d28900634749d62f8d75adc2"
+    },
+    {
+      "path": "Gallai/Structure/OneVertexSeparation.lean",
+      "source_sha256": "a427ef7365d0bc02d8908fcdca4d77c86f8dd514901ae416617c9263d9c3f84b",
+      "ported_sha256": "a2dd0753ba8a52fb804874687394067cc69c6c5b0138b62ebb8090242361f65b"
+    },
+    {
+      "path": "Gallai/Structure/OneVertexUnion.lean",
+      "source_sha256": "a39f22815ad9c22c0e1855c7b7da471d8e619032453bfaf588d6a37049d7c66e",
+      "ported_sha256": "287ab0979c4c36536ea01dd946daa1605b376e3bafbe224748d1b30873a206a1"
+    },
+    {
+      "path": "Gallai/Structure/OrderParity.lean",
+      "source_sha256": "f2231be613e03d3921678c347ab95c919884dbe3fcd6b279d5dc8eff9a3519b9",
+      "ported_sha256": "f909cc5f80e4f9a5d86074eb549d9e3f68f0dc726f5f53c0c3593127e4dbbe7b"
+    },
+    {
+      "path": "Gallai/Structure/OrientedCutPieces.lean",
+      "source_sha256": "268ea160e1e1598261d0dce39d54926b53aaea725f6444c798a2f68b9e5b13f4",
+      "ported_sha256": "1aeecf49fb2ccf82c61304f01f24c35ed0c6423387ebef8b07adcef58c19c372"
+    },
+    {
+      "path": "Gallai/Structure/PartialEvenStar.lean",
+      "source_sha256": "00d80c018710043f1bbb89c39a1be70e8253d0edf6e7374d90f84a0e42be9c6f",
+      "ported_sha256": "60595558a5f53120f37d5f1527cef93cdc85b14961a749b4f898e1356e97fef5"
+    },
+    {
+      "path": "Gallai/Structure/PendantExtension.lean",
+      "source_sha256": "ed41ca5524f656a7549f2d133c6089c1a92cba4069b731d9cd4c047b8a113511",
+      "ported_sha256": "3b306c220a8ae65feb5462dbfc09a74b1c0dd4635cde4e72b07860627094e298"
+    },
+    {
+      "path": "Gallai/Structure/PendantReturn.lean",
+      "source_sha256": "e663d03b82ba5d479a207bc750e48e28a514d3a8e363125703877bc29662c9f6",
+      "ported_sha256": "5d08475cb14fc000384158866238007ce1a06943540dc8199197f56890fc8e13"
+    },
+    {
+      "path": "Gallai/Structure/PunctureBoundary.lean",
+      "source_sha256": "f6149f582d326ef0feb4d48f892b9a9fddf7df3ba22a7d529986ef8995a9982c",
+      "ported_sha256": "0b93ec7c3ddff34d99237b77301a75235db36b6c5899bb05aec507ea771acf60"
+    },
+    {
+      "path": "Gallai/Structure/SET.lean",
+      "source_sha256": "18b141886708ab878cdde81cd0cc8fde4340daae16c8bfd176c91559d381f4c7",
+      "ported_sha256": "40f20f0f67475971f33ae8c48ce6a15404aa5fe21e81a247af718719925747b0"
+    },
+    {
+      "path": "Gallai/Structure/SETBoundary.lean",
+      "source_sha256": "55dc9b3c8bd2402795f07c4f4d5a1379037a92bc4a51a19c7d22557661afa73a",
+      "ported_sha256": "8fab631a6bb3e615ef5afa43bc64c5fdace71d1d5b2446c7db5e5fe576bdecb9"
+    },
+    {
+      "path": "Gallai/Structure/SETImageComponent.lean",
+      "source_sha256": "9671dae872e62fb40fd409a88629b38aacc2fad814cd6fd9fc5bc8607084eeea",
+      "ported_sha256": "b393445e0c698da298e98e7c235e4258120378b50be0fd137ec70fd1cb6ec85a"
+    },
+    {
+      "path": "Gallai/Structure/SETIso.lean",
+      "source_sha256": "10455b66b2cb6435a397265cf0a6d8a7052e16789d498c957af5d881f41653e4",
+      "ported_sha256": "b4bb987524792bcd9726befb584c0cce4b08de1aa1c1bbb45463f96daa2d9dfa"
+    },
+    {
+      "path": "Gallai/Structure/SETOddLeaf.lean",
+      "source_sha256": "2d78231ee1cb92055a237454703f37924f588a21e7f7048b45e00606ea351ea6",
+      "ported_sha256": "8a79c388abc343770da6baa2627125818a226e1bb0e3d21aea049c9f545dc137"
+    },
+    {
+      "path": "Gallai/Structure/SETPuncture.lean",
+      "source_sha256": "157565003b5b6515275fa0e4d7b965583ad4fcbe0652c2c31a71e1bd6543a6cf",
+      "ported_sha256": "c1548bcf373d1b5b87dbbc2cd2f107dbad17d815e85577ed19c73bd9b26d2138"
+    },
+    {
+      "path": "Gallai/Structure/SETRetainedPair.lean",
+      "source_sha256": "6257f45fdffd295748894ec2888cd85843aecced7c9bb5dbac39a028dc86997f",
+      "ported_sha256": "3dc4d6cde71909b942c28a97f16fa93981a4a85b5b2f429b7726a21acd602d75"
+    },
+    {
+      "path": "Gallai/Structure/StarPuncture.lean",
+      "source_sha256": "603cb55f39d05d7ea7c26acbbb623b37c12af011310c2cd8338def2c79c15d60",
+      "ported_sha256": "a7c763ba883ce38d8861fd9e8743b23b34b9810f263005b28f4eba413191802e"
+    },
+    {
+      "path": "Gallai/Structure/StarPunctureException.lean",
+      "source_sha256": "e643244246838a2f63142600e8305008553f9da9eb9de7fef3ca4965b77382d8",
+      "ported_sha256": "85f494f518a341a4ebcc203da3b9d8c04f7195410d8faa554f711811e6436246"
+    },
+    {
+      "path": "Gallai/Structure/ThreeSpokePuncture.lean",
+      "source_sha256": "c66bb3a446c4f7c69479c96a3ccc0840c85aa9bcd5f4f092f505aab9d162b809",
+      "ported_sha256": "cf89e79c0c1b623ecba6b1376d86e48fe428a399628cb2429b5eada9792c4333"
+    },
+    {
+      "path": "Gallai/Structure/TriangleComponents.lean",
+      "source_sha256": "44acfd1770dffc49ad0441f728b02f55eb727e1f77fca37eba4f4d8dbf2d7168",
+      "ported_sha256": "adcb90d474c8576da55bee448868cfe41e274cb28cf45cc702db2c27defea51c"
+    },
+    {
+      "path": "Gallai/Structure/TriangleHubDeletion.lean",
+      "source_sha256": "7f103251b7229ce0c83219f1821b1c80daf2f51b5690f611c32a1dc2d6e185a9",
+      "ported_sha256": "92d34a30fcaeb5c4cf89c82ac75bb44eff5a1a0b7b4ec4e5f99fc53888c26eac"
+    },
+    {
+      "path": "Gallai/Structure/TriangleHubLabels.lean",
+      "source_sha256": "1aa71db41eb6d9f9904be23ba7adccc1291c38f57a96be3d4b0c6b7ccab75fcb",
+      "ported_sha256": "70c0c875cfd23d93018865482a0c4270f2a4382fd85b5199ca52a0184efe9f08"
+    },
+    {
+      "path": "Gallai/Structure/WalkPuncture.lean",
+      "source_sha256": "c423f278c2ca67796ea9b4ec5b016ad1b033c29ae4bb1a8f64632575ae712d83",
+      "ported_sha256": "dd784c5b65eba908d66d29ecc1768e28a468017aa987de9335c48e57f12cbc02"
+    },
+    {
+      "path": "Gallai/Transport/RunSlots.lean",
+      "source_sha256": "05b252483e977c260055fb11a709e8c893fc76e28fcf0493c21f968b3502642b",
+      "ported_sha256": "3f28c2369ec22310895b9ffa0fb2eaac927820e45f0d22124d2019cb8d4abf44"
+    },
+    {
+      "path": "Gallai/Transport/SpokeSlots.lean",
+      "source_sha256": "638af754c64822f485cc9452ac7d7e81ec1991ea71bab6de6bff79c10423a283",
+      "ported_sha256": "2ef213641b5bedbe87d60de038b538e41ee4351c8dadaa7a7ba3122aa55b289b"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentCut.lean",
+      "source_sha256": "923075bef80bd5c3d0ec1f599bf35431baecd6c290479efe8a7b85932934e2a9",
+      "ported_sha256": "13d4109184e666a23028717cfaae69143f5e1fc2c9c074584ebfad352d3d7dfd"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentEndgame.lean",
+      "source_sha256": "ae5b391953aeab66c47bea68f3f429f3be35e4f6decf8f6b6e558084ad7b3fa6",
+      "ported_sha256": "eb97c5ff6bfbeebde6c44ea193161edb75c77807109e8fed2957eed4163db7d1"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentFinal.lean",
+      "source_sha256": "9ebd9b69a2e923f1efe3cd1c5490e102ecc867b2e5bbe17ac614c472e5cb8f06",
+      "ported_sha256": "58bba36b45f450f336e0ec7638d56447dbf8bd1ba62ca5c7661923ffe58abaf5"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubCut.lean",
+      "source_sha256": "489b063050510aa2e4b4076020a842808058cac2cdd00c55f223d8c1360b5322",
+      "ported_sha256": "683496b992d79f1bc5aceb1530aad9e19b69ccdb390e4bcaf26bf436b9cd49b1"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubOddAux.lean",
+      "source_sha256": "4469801d914846c83e872161b02e8954d53da65450243a43bfd726e5c0c35838",
+      "ported_sha256": "192e0ec75d6817af4ac11f38e44412ea81ed69443113fd4a8ce07655f920f32e"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubOddBudget.lean",
+      "source_sha256": "afce2e7bb202bb48ea6e5462cc8e71c85712f7a4e91cd0ac5084fda8ae63c810",
+      "ported_sha256": "812b2f4242e48a5e29723cdf59baf4411df599d28894b13519342dbf2d9d3bef"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubOddInvariants.lean",
+      "source_sha256": "29d979d3292557c5369bc88738456a1771621f315c18d55af6378193e73b4ba7",
+      "ported_sha256": "0885bf8735835ff7c4deb4a7160ef57afb9fdb92f1d88fe2ba6bf7ba521442e2"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubOddLift.lean",
+      "source_sha256": "b0152cef60eb835fe9eb5c581f038edbc4e0bcd447501001adc09439b257851e",
+      "ported_sha256": "5321f4fb3f3c6c3ab8c3365410d04f25fd8871ba3e8be02f553d6ee2948b2bd0"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubOddMin.lean",
+      "source_sha256": "665fb4e546bb3815b898199ecf8f33a947dad2f81258423905bb851795dd4219",
+      "ported_sha256": "13e44b647d3f8b2caf47c74e0edea956a25627c0cf7bc1b2fed362d5bdb0e700"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubOddNative.lean",
+      "source_sha256": "0f68637afa59abe5430b51c5c42ead05ee02d17742c1383244f21bb10b0135da",
+      "ported_sha256": "b55c08eeca9f3b1c2e0b901aa2f7521141bef3bcd7e2a03f7f30d3739d4ecaf9"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubOddSingleton.lean",
+      "source_sha256": "5bb7b85a8f8d84226989b1cb4d4501e0d7fb5595b4eb1f410819348459d8b931",
+      "ported_sha256": "de722eaef9cb3f6d56d6735f2fd02c462c3b25e38aa62194efb0e48228d07e8c"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentHubOddSplice.lean",
+      "source_sha256": "85df4548459dbb32fa08dda9889677963be34ffbdd8146cd83fa91fbd13b4aad",
+      "ported_sha256": "76ed5c50bf46fe52205cd7f802296ddea1bc049a097508f506102b46497fb94d"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentMinimality.lean",
+      "source_sha256": "51add752daa20876c0011244d8b4f6ffcba57caf2c5198e8a751faa41f5c5594",
+      "ported_sha256": "cbd09054941ef44bffb9fd2ec2d81fe493af8036bbe30392009c561fb919b800"
+    },
+    {
+      "path": "Gallai/TwoException/AdjacentParity.lean",
+      "source_sha256": "62187f024c70f7b8b1247b936bc711fd6b31915ed30d0270428b6c9faafe0fe4",
+      "ported_sha256": "c143ac33f0afad5f70517027871342ee44f1ca6f4cb90a0d02394b64debb8074"
+    },
+    {
+      "path": "Gallai/TwoException/Bare.lean",
+      "source_sha256": "723f2199549575c1ee1d779ecd4f915b830686ca125c8e349740bf83c8a0ef06",
+      "ported_sha256": "b0da74208a8ee9543e2fdf9dc47ed9beec1f66a4530baad25da4615310e57e3f"
+    },
+    {
+      "path": "Gallai/TwoException/BareAmbientCorridor.lean",
+      "source_sha256": "761700c625e3717c5fa100b27950512636202b4e883ed7b81c195df3e4766628",
+      "ported_sha256": "dd13c0a1ee04bce77fef17cec7aff0b1ce0ac0755a11dcc65d95d159fe21b319"
+    },
+    {
+      "path": "Gallai/TwoException/BareCuts.lean",
+      "source_sha256": "9cd5bd773cffae0b145deb44814bf12be2f13a39429cb127467a336c80cd74c1",
+      "ported_sha256": "1ad8414d628d80dc0f90026f702625984a4f23a4a3660dcc9a7868c3de36e7b4"
+    },
+    {
+      "path": "Gallai/TwoException/BareDelayedContact.lean",
+      "source_sha256": "f8cd7d67ec0cb08e6a62051c5ca7405a2c86c24ca32958881ea362599e52966c",
+      "ported_sha256": "467bc7ccec59dacaaa204711d148048b8d0ef5f43b50fc97e38b0b46fa889e07"
+    },
+    {
+      "path": "Gallai/TwoException/BareHangingSET.lean",
+      "source_sha256": "9397a873815b4796c83a7fd59299649bc9876efa45514fbe6ff50e9687154fc6",
+      "ported_sha256": "a137929b89fdc7436d1116ebba47e690f667f5f2669a2b45211514bb4c892717"
+    },
+    {
+      "path": "Gallai/TwoException/BareHubDegreeOne.lean",
+      "source_sha256": "92096b5af771e9cf0a719e1f8f8393bae35996f16eaa253490056ddc450d39ea",
+      "ported_sha256": "bfc60a5001cc75484f816f7f991c337d62b7609043f250071e8f93bb8b508904"
+    },
+    {
+      "path": "Gallai/TwoException/BareHubDegreeThree.lean",
+      "source_sha256": "bff23bb6537504cf8d76c32be71b4ffb7fcacb82a013acd7e56c6aaea60b0bf2",
+      "ported_sha256": "299324a0a1ed0c4848dc66326d73a3ef8aeab2fd940f37756f30a1de7ae4773d"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongContactCoverage.lean",
+      "source_sha256": "5a89d7c00c4259b287f4c422cecb6bfa03066a8dd69888ae0e3b863716f151a7",
+      "ported_sha256": "9bcc7981a64fec1a9c4c27235894c18acb6baa8bd282ca299fb7f846b136664c"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE12Budget.lean",
+      "source_sha256": "c590b075955d2afca8715a02d1640a78afe135c630fb41dd788f3d507247e26f",
+      "ported_sha256": "55e8370785b18f0b65b7bf53217b523f55041e2eb3a86ee69dbaefb375bbbfe0"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE12Restore.lean",
+      "source_sha256": "6efca0f7e60902735804a56958f59eac85304bbb5380bda8aa7dce9d91e6e29d",
+      "ported_sha256": "6f2cf61943683d91b388c17ac6c2cdee027fb81e18759f8292bce488df3e8fa8"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE3Budget.lean",
+      "source_sha256": "926cbcb8bfe4c07107a0dfd1a889dab0aab27eff104f113b24669a89d62a5c78",
+      "ported_sha256": "6e0951df1c4e81abb57860ed6e26ca16d505d0bb6680465d0056f3ec4161bfa2"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE3OrdinaryRestore.lean",
+      "source_sha256": "be7d09b4dbfba6c8c0874ecbdcb3cecfb937949b99e0772acf295e09575b342f",
+      "ported_sha256": "71272cc00dd0643695721df34287097c48e4f58d236a9afce44fc741bfe23b1c"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE3Restore.lean",
+      "source_sha256": "ef026610ab9f54444be54ce9dbde4965dcb92f57e238de7ed8d651f333a9728f",
+      "ported_sha256": "fac334327ad1edd0a951118eafbd71ad8a3f41222582789062b4ef0297f4adc4"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE4Budget.lean",
+      "source_sha256": "63c4c8b2258d7bfd31e54762024627b9ac112873582ea0af64cbcd15709eaa03",
+      "ported_sha256": "8a115f797c8eebb35ebbf0904125550c26acdc1632794cdd855e1d6c034a9258"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE4Restore.lean",
+      "source_sha256": "1434fd2516e7bf38ae32ca1d366874b8615a9cdaf8b7964d8f1f10f248728149",
+      "ported_sha256": "95c96d563763c2f706b83de33358578a9b538b5b7c65a361008901b3328cc453"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE5Budget.lean",
+      "source_sha256": "7d7698f3aa2c1e406e4d7da0e52181af128a6c76641176d64c31cbce7e4fb473",
+      "ported_sha256": "f148d85d3d8807b66c67b20cc163049bcad6fcb424208c28b7b5208ff2c69df1"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongE5Restore.lean",
+      "source_sha256": "0ef016aad1d0dbcfb833ce9303769cb92a6225d8e621adbfcd1e2dd17f8d08a3",
+      "ported_sha256": "f9ed9b6ad0da08a293d783e9c2f913b280b3029e97a7955e95e69d7d8c1a015a"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongFamilyLabels.lean",
+      "source_sha256": "034644d83abf639d5a03c05cd11bc41a6c4d23ecfbfe377089ed1135b4ba833a",
+      "ported_sha256": "afaaa180b093abe99951a7898a0e2361a13ee3e21a8c59ab0c696e9eb3d46895"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongJointBoundary.lean",
+      "source_sha256": "db0b2fbc4db98e8198286fb72368c141f9908088c77adc1bff2dfea3042ee7d8",
+      "ported_sha256": "8d39c8f38d23122b9fe26df538ae479824d4cc32939de8da384cd85de27e2337"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongJointBudget.lean",
+      "source_sha256": "3649f069678ae5e6adf80f94ebd8c5fc84b4683eeceebb023408c2d0e5724d6d",
+      "ported_sha256": "f5b0dc425d979e303bc56211a40c458151c33c364e54fb072f2394975a93d92e"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongJointCap.lean",
+      "source_sha256": "985823f01df3a80ade11ea324a05f0c289a62a035eff2804be0d78ec5eb967e8",
+      "ported_sha256": "7ca41085702b499ef7f7be9bcf630eade11a6a082ec3cce2a13e154f6b0009a9"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongJointProfile.lean",
+      "source_sha256": "7824f8067400893af075357b9683199b63d51126694f52a5cb44c6c684b84d7e",
+      "ported_sha256": "6798b81e52b56a1f131db16b5cee90caab7cde99f236ee864c242b2e721bfced"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongNativeOrdinaryBounds.lean",
+      "source_sha256": "d8f380112f7bfadedb4f63a716337556882c3daf7d91ab7775e158e9ec4900ad",
+      "ported_sha256": "0073ee47bda45ed370247d80acd8a4c00a1d2db70dd75f378500d0455edf3a5e"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongOrdinaryRestore.lean",
+      "source_sha256": "5474c0230444920dffc8947b9f75129e1551a8497c5a9618d7f7c9fa019f77d9",
+      "ported_sha256": "79b1e713df795611e8d80691f2af34017317cce8af56a9ef1e858f6b89fccf3b"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongOrdinaryWitness.lean",
+      "source_sha256": "79cf0ffc887117c96d2671410adecc0e4a8b80d4c684873344f6e7fb671e704c",
+      "ported_sha256": "7e787ea73c999948532e217d82cbe7204003fb3b3cfec86e20c5a5652ddf55df"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongPreparation.lean",
+      "source_sha256": "8fc0e520d3a2869415e3aee18f990ff2f69dfc146fa18ab45fee3d57068f63d7",
+      "ported_sha256": "b5d1300fe36d69233aa2622ecd81bd4bb94e2623ad89d76c80d394448e0cb457"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongPreparationCap.lean",
+      "source_sha256": "0b3726cb2eef17a151a819bb691d9ecf445034f16908579e6b7cf4d8be2d7fd2",
+      "ported_sha256": "46617d6b69ca363b3bc6ec79f18c7a007957e0efb8d7c58abf59f3d855a4920e"
+    },
+    {
+      "path": "Gallai/TwoException/BareLongPreparationTransport.lean",
+      "source_sha256": "eaf17a7de9bfe0fe793b5804b3accebbf06e7989cae5f7d317c9049296c8891f",
+      "ported_sha256": "29abeb4b0e4a444bddd0a1b63bb9c5e10785c5811073492ad39958b19f2aa996"
+    },
+    {
+      "path": "Gallai/TwoException/BareMinimality.lean",
+      "source_sha256": "44e0bce605265fb1b1acc9129414d72ce41fcf2f9af2b07b91c87f39ce2c5b3e",
+      "ported_sha256": "95cd22b9b8158add1680ead0dd2c82652846bfc63e79395c58e819b68bf16fd8"
+    },
+    {
+      "path": "Gallai/TwoException/BareOrdinaryClassification.lean",
+      "source_sha256": "31278991c807ec9859f42b9958b1eddb084044a13b16fc71f754ce4f83eff057",
+      "ported_sha256": "36193ad80c6217720f9bfa5da10ec57ba27c205603dbd28361dce32a474ac28b"
+    },
+    {
+      "path": "Gallai/TwoException/BareOrdinaryCycle.lean",
+      "source_sha256": "d6e380c852af3150928d04be3febbcd7359b6072155d047b3d5c01379c027bcc",
+      "ported_sha256": "f579f4b5645229930101f4bcee9a99cc44a949b7b6e498807aac0156dc65acb5"
+    },
+    {
+      "path": "Gallai/TwoException/BareOrdinaryCycleBudget.lean",
+      "source_sha256": "efbbd249e4046cc075d4a395c035299f6bf6573ed819973ca2e25e8cc1425b6f",
+      "ported_sha256": "0a2e81e363325ce7edc48a47b698cc78d79de415e026f239919dadec543f00b0"
+    },
+    {
+      "path": "Gallai/TwoException/BareOrdinaryCycleReduction.lean",
+      "source_sha256": "c732473b17cd5f78466d3a1e3e4d9486edc191a38fc1a6da276cda524b91230b",
+      "ported_sha256": "df1e53278c4af1ed39816bafa627926b5d73f4600f6fe6067204ff6ca2be4539"
+    },
+    {
+      "path": "Gallai/TwoException/BareOrdinaryDegreeOne.lean",
+      "source_sha256": "7b6ea3442fc359efe7451fce81cac4cf31b7554a84561998022ab7e4d3f9b9f6",
+      "ported_sha256": "09b0262e2bfbf4c8bd7ea64ed63c0d65eaaad3ea54ac62746bbbb13bc0eb18a1"
+    },
+    {
+      "path": "Gallai/TwoException/BareOrdinaryDegreeThree.lean",
+      "source_sha256": "59849a596c0db9d34135d209bb5ad546220addcbe4c0fa5cda04b2f2cb1f6df2",
+      "ported_sha256": "b4ee33cc66dd825d93210cb58752d8632fa584c33fa4b393a335e6aa98b13365"
+    },
+    {
+      "path": "Gallai/TwoException/BareRelabel.lean",
+      "source_sha256": "79688ca961e89fa97c973c602f9025e60c75eaee12e15cb4a1d843b025adf4f2",
+      "ported_sha256": "a67a0d3437f24b2f0f8c14263e1151ff0d16c2c0455a7a4d0fba181ceebfedbf"
+    },
+    {
+      "path": "Gallai/TwoException/BareWindmill.lean",
+      "source_sha256": "b7e8cc4e8c099af9cd5f65fcdded964238169dac98511bd06d083f173c99d9c7",
+      "ported_sha256": "1aafa1375ba4311fab07cf03cb4f0bac39caaf239f5c881bfb333f14fd694b09"
+    },
+    {
+      "path": "Gallai/TwoException/BridgePartition.lean",
+      "source_sha256": "508a5df8bca4f429ed1722aae15068439183c1dd49ae845f781257a62fd50083",
+      "ported_sha256": "9d8fb5db9e2268df48827d1bc6dd61e3c113a1584bfc4f6c0d2b59c432398b2b"
+    },
+    {
+      "path": "Gallai/TwoException/ComponentBudget.lean",
+      "source_sha256": "562f021f6562f8d62b2cc9c44bfee40a4c154307a03072bebb87f09a09072e57",
+      "ported_sha256": "d64285edff62400fc340ba81eca05d647e67ecc953f8dd269c2130a85ba8c083"
+    },
+    {
+      "path": "Gallai/TwoException/ComponentWitnessAssembly.lean",
+      "source_sha256": "dc59d6120ded214da2a14fe2a1431d64ae8725200e93be28671023bbf3ad2137",
+      "ported_sha256": "8c1fbecfbadf445fac1b2ef7759c586f18017fed0d7c4d5ae962d0d506e9af0b"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE1.lean",
+      "source_sha256": "4e3fac029eed88cfe440f0675b3442d27b2494922923040b0bb8c2c03875b1bf",
+      "ported_sha256": "9faeffc277758d316e94ae9d73511b0f824a7bd28224e66e799eaa574bc129bc"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE1Reserved.lean",
+      "source_sha256": "3ab6ecc42472e061d44327c6465ba58adac1a4e18c5b8902e718a4946fb7ee5c",
+      "ported_sha256": "2d04a8dd42443817ae95a6af1512256feea4a300a89e9bc914abd14c84af4658"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE2.lean",
+      "source_sha256": "9eb9b8bcf03a684b97bb68191888a52c57e175977b04aad81bf49e48accce3f1",
+      "ported_sha256": "6aeb7b3e9c5ee880dea8861463df53406c38347837682b242e4a81224aefd568"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE2Reserved.lean",
+      "source_sha256": "e428a1e8c8c5f2474910dd223319b5a7d12288dfce1d494d9d818abef2af572d",
+      "ported_sha256": "53cb3bfd883dba8a6635a8569c2dd9c0a02f5378e520214e86c508d94cf9f15c"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE3.lean",
+      "source_sha256": "c147728f7f51982953ab33d9eb71f2a93e269db67ec1adfa27a2bb973c55e287",
+      "ported_sha256": "3f1bcf7ec859f360d11b52a51b0bf80e406b4b61b6effc3c506f0dc45da8da87"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE4.lean",
+      "source_sha256": "3e38794c94dfdaf290e74168e563781f08ee05518f16f711b5a629cb9eb86bd7",
+      "ported_sha256": "b11d7e3de8478677fda5ba2c297e3084739dd9287071eac38b3c85f4441654f1"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE4Reserved.lean",
+      "source_sha256": "21fab3f5a07469a0d6391fd9b7a5f50ac46b4eda738c03600ed721396467caf7",
+      "ported_sha256": "bec3d9d94e62cde179a6c1fa9061bb62455c3f57ececef99ff675cd6e046b238"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE5.lean",
+      "source_sha256": "2f9857d0e7645d1dd47144f7bc068a17ee9517edeabfc88ede538f46f3c00b98",
+      "ported_sha256": "5cb9193c34383fbc8e48081fd02cb488b1c9d19caeca39d8c088a5635cdcc86d"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE5Assembly.lean",
+      "source_sha256": "d4df9eb932541a3772fc0afeab65e0df41519b4b2c078b50f80ee8481021cc1e",
+      "ported_sha256": "98b94698899c1c1dc319280641bfbc38d6250f4adc6a9be0cdeba6b1cd447439"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE5Boundary.lean",
+      "source_sha256": "49ef08799366c4021cf10bc9c1aa21a69b936d5ef6fa6147dbd873557fc6e8c6",
+      "ported_sha256": "6418e499e4857e69c9bd135220f31cb4c73087ea2dd77d94ad888fb6f8f10584"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE5Budget.lean",
+      "source_sha256": "05af8c9f84bc7869238b251ed09947fe1643984dacaaaac36fa35f848094d2d5",
+      "ported_sha256": "0878c1d537d8c96ef9b77ea38fd2e02b593c6ba033f260ff3c7495d3dd996519"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE5Preparation.lean",
+      "source_sha256": "2b7d7cdf0136112727bf7251953fffd6d043f771ee2e61a52d4f54bbad513c1c",
+      "ported_sha256": "e3a0a046848d3e7da423aa5d539b21b1a09a0f98a60242c4fd34aa367a7752b2"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE5Profile.lean",
+      "source_sha256": "161c135ef58dab595e7f34e9491c46399b22bc8ab10ab862db98c039aca4ef9e",
+      "ported_sha256": "c13119ea4e596a29dffd3ff1eddc1c8835d8d12e221c397286299317b0d5ddac"
+    },
+    {
+      "path": "Gallai/TwoException/ContactE5Reserved.lean",
+      "source_sha256": "fd6c47e3270c6f136472660911cd23ca7d322317d9b0869664e30a8f7b586a67",
+      "ported_sha256": "b6f2fafbcc54307cf88c54dac992e324ed08716c9439fe24ecccb8d1bdec5a10"
+    },
+    {
+      "path": "Gallai/TwoException/ContactHalfStar.lean",
+      "source_sha256": "e4dfec7dc4f4b48092d6a40f68677db94fa6a8bed7b4bd3a7196e3d1e5abcbe9",
+      "ported_sha256": "08b6037b0aa5a2332079d102eaeecb65e34e7995cfc4933d34278a3667a4857b"
+    },
+    {
+      "path": "Gallai/TwoException/ContactMate.lean",
+      "source_sha256": "b3eaf259ab1a4206ba8f9d8531d07ef0321ff51f4519270708781a54f7f1f3b3",
+      "ported_sha256": "c66fdbf2ed0d47896a92d181229d86b2f45528e4460dfb5fe4a95597c5cef7f7"
+    },
+    {
+      "path": "Gallai/TwoException/ContactMateAssembly.lean",
+      "source_sha256": "0b2332681ddb0b2ed07e9197c4c2b384ef80eaa19bb637ac8652dd93cb6803f0",
+      "ported_sha256": "115faa88fd6c918c29bdacbe9b0b6b8ec1d8763d529b67da3dfff5f44468b05a"
+    },
+    {
+      "path": "Gallai/TwoException/ContactMateBudget.lean",
+      "source_sha256": "6d63f1d48fb054d6907f82218f745f8e5d70ffe8c4ff105cc980442ce32a81b7",
+      "ported_sha256": "2279acaabcfaa67a33b2f6006954552f3d78fd7aa0eb32880801b7f8125e8140"
+    },
+    {
+      "path": "Gallai/TwoException/ContactMateProfile.lean",
+      "source_sha256": "3d0ce49f08656270b0be8eca55f2ccaa432c4a300a1edbbb6572db9948ddc618",
+      "ported_sha256": "cc18d77e605e234b2c953e935e56222d36a891bc3f5f8e2c86642934a8c76764"
+    },
+    {
+      "path": "Gallai/TwoException/ContactPacket.lean",
+      "source_sha256": "6f4063bae2f56a4c597a7b75602bd1d7873d0fe9f783a3e7a2651f11d48d79d8",
+      "ported_sha256": "5c74ec682c55f36164ca59fa0f5abcd5c0999e5c92c760e2c435a21934e6661b"
+    },
+    {
+      "path": "Gallai/TwoException/ContactPunctureAssembly.lean",
+      "source_sha256": "bf6d7a6744c97bd7c986880694c112202731ef5801fef37b0a77144c06a8901a",
+      "ported_sha256": "e601f9607afb60bb853ed2c7a89301274850a297e46d74f08ff9effde7180030"
+    },
+    {
+      "path": "Gallai/TwoException/ContactPunctureCap.lean",
+      "source_sha256": "54fbda7bbdddfd5faee5c3a4db43950e24df18a8326178cd656243a70dd3b60f",
+      "ported_sha256": "679b9d5b8a0e951866bc65e2e18829f46b8ce9323e47cf841c279b4e70c7146a"
+    },
+    {
+      "path": "Gallai/TwoException/ContactPunctureWitness.lean",
+      "source_sha256": "62920c3d1316cbf87ab9f8521c788dc8527c2c33d1f690f4c72960ad9977bfbf",
+      "ported_sha256": "ebb3c95e597efc1e6d843e2276b40476a685aab8fa4ffd1cd90671c0076ef416"
+    },
+    {
+      "path": "Gallai/TwoException/ContactRetained.lean",
+      "source_sha256": "2ecca505aa8ceec9fcf4f49fd8731987787ab75681753f6b5725d7170ee0c1b1",
+      "ported_sha256": "95592fb18d26e9251ce4d517033fff9cafb67dab09dcfb7c12d62d8071bcbd74"
+    },
+    {
+      "path": "Gallai/TwoException/ContactSpoke.lean",
+      "source_sha256": "120faea10915fd92dd1e2a263c23488ec0d4df26678e2b7874100c2e84876dac",
+      "ported_sha256": "722e068b155abf85290196b6fd9ce3139b012235706a58874f145f5da7a45fd5"
+    },
+    {
+      "path": "Gallai/TwoException/ContactStarAssembly.lean",
+      "source_sha256": "360377014099fc8ecedf477b5808d04cf3e45d6333cf0c7b518d62b47e920c77",
+      "ported_sha256": "0405a70f511ff2030c7efdf947d76de795455f1b0becb9672cf0856919b29009"
+    },
+    {
+      "path": "Gallai/TwoException/DelayedAuxiliaryProfile.lean",
+      "source_sha256": "b9a610207c0227e96287fc8be82a31606603d964a91cf026f053419a3d29fc65",
+      "ported_sha256": "c8e269c75455096a5983383f0904382edab7eab336a6680d8c2b493ff5790a2a"
+    },
+    {
+      "path": "Gallai/TwoException/DelayedNativeAuxiliary.lean",
+      "source_sha256": "ebbe6c151bb9deca38ec6980fb866733b07ce4eb796f8c9dc4e59e357608b123",
+      "ported_sha256": "b70c428352b8c12f64ebf3916d5d3aee554f9e4e345d3b7c955f1697a62c1ce0"
+    },
+    {
+      "path": "Gallai/TwoException/DelayedOddRegime.lean",
+      "source_sha256": "84a25bd7a6ae86bf7586b9f1d77ef26b080c5c8fdc3388c4dd76e41ba513ed63",
+      "ported_sha256": "60b7eaf315a006e1723823122d3475e8f3d502aa63032134fbc0090697542686"
+    },
+    {
+      "path": "Gallai/TwoException/DelayedPreparedStarRestoration.lean",
+      "source_sha256": "44bd2cb1059d5a394f23643486ef13c0a3153a6375f26061d156cd7811647720",
+      "ported_sha256": "77cadaca978c5b62589b36863e07707944f4bbf53576ffe04f68b061b6faa4bc"
+    },
+    {
+      "path": "Gallai/TwoException/DelayedPrivateMateRestoration.lean",
+      "source_sha256": "4a121c5c133b230cd242ef4cecec402a21a2040bc9e214dfb4851364415c858b",
+      "ported_sha256": "e198591dfd576f9ccdd00124b54b8e80ec55ffa0a2def4d8a8265c918c8c1fb5"
+    },
+    {
+      "path": "Gallai/TwoException/E1ProtectedBudget.lean",
+      "source_sha256": "4531876d5a80d224624aab3eba316b465826076107556745856379e869a6ee74",
+      "ported_sha256": "6a1d685a17537987cf99d9bbebff833bc7698360fd5a2308b421f21813391b52"
+    },
+    {
+      "path": "Gallai/TwoException/E1ProtectedReduction.lean",
+      "source_sha256": "d9093e8189efb1fda46dc9653b5f4497cdf0cfcc0672b3d54c0adb5b1d736551",
+      "ported_sha256": "7b3b51f35495199d8eaab2229d4b36beb9d30fb1646a9a1e4c50d359bfd1c29d"
+    },
+    {
+      "path": "Gallai/TwoException/E1ProtectedSelection.lean",
+      "source_sha256": "316a495a1b42351a43b0e9cc0460df075f212f43f386d3bbbd8eaa19ef835e56",
+      "ported_sha256": "eba7ad85d06e6677a160696a075a48ffbce938356950c54d6db67eb14b9153b8"
+    },
+    {
+      "path": "Gallai/TwoException/E2ProtectedBudget.lean",
+      "source_sha256": "0094a59796647d72a653e81829c74537e9d5af0385c5be9e7e5235a651437246",
+      "ported_sha256": "3b055a5d3c110f4a9c0d26c94c67b8d3a1ad9f44834416b83ed48d94035a343f"
+    },
+    {
+      "path": "Gallai/TwoException/E2ProtectedReduction.lean",
+      "source_sha256": "c8971882ce6bc7938fde66e168b10de2519924843c464bebee206d9964a95a2a",
+      "ported_sha256": "6db0752c8c02cf544b2e37cf308f04e52e8e91892efa8258155bcb32e4cb1371"
+    },
+    {
+      "path": "Gallai/TwoException/E2ProtectedSelection.lean",
+      "source_sha256": "9f370905ed53750c6495158ea715d9a258d33cb7dcf99f6af74918ea60b99740",
+      "ported_sha256": "a9893e934446051f628534df223818b69f95980e200e0a3edc5e41269ec07071"
+    },
+    {
+      "path": "Gallai/TwoException/E3ProtectedBudget.lean",
+      "source_sha256": "983d3f509acdc1af476d0bfd0b6ef1b826983ef1c65687ef1fdc70aa143b3a24",
+      "ported_sha256": "50deb41a7946865e934f9fde0a5e4ff4e2649df41c15989440f773d07b888512"
+    },
+    {
+      "path": "Gallai/TwoException/E3ProtectedReduction.lean",
+      "source_sha256": "b7f7d5b27e1f8836b15481c219245871cf97b20d9e4a5efbe027516aff7d7ae2",
+      "ported_sha256": "5c9fdd30328786df0f14e3f4be1a188307685183b80d13aea9cca6dfc18e7e81"
+    },
+    {
+      "path": "Gallai/TwoException/E4ProtectedBudget.lean",
+      "source_sha256": "f0eae87eeb1e2c920843e70dfc2553f809b5192141d33cdf56ee9e2b027ea674",
+      "ported_sha256": "55180de2efc09a904705b10d46499ae8fce4ce1e4b0ef4f1e42368f86dde6e31"
+    },
+    {
+      "path": "Gallai/TwoException/E4ProtectedClosed.lean",
+      "source_sha256": "702b82864cb1991286b3a14662307cfb7acdf461e9f63e9d21bf2e08faed96d6",
+      "ported_sha256": "921ad198e205aac3bddc17b408e68c3277e30a3963614169bb6e6563347abef9"
+    },
+    {
+      "path": "Gallai/TwoException/E4ProtectedReduction.lean",
+      "source_sha256": "bd9ce7438cbe94599941c1cc44800e1ed68e92fbe369fe316b8caf6096c102e0",
+      "ported_sha256": "1f639d03eb68588bc98d2369170a9210b7a9253b313054e5b7813845aebe8460"
+    },
+    {
+      "path": "Gallai/TwoException/E5ProtectedBudget.lean",
+      "source_sha256": "7ff156610ee58cffa4a96aeb1ebe0c0f0dbfdb4b169ece091b4a21c503fa445d",
+      "ported_sha256": "ea8463e735036633a52a248c19f8ff90b97c641530115b85c8a03ceecf30e33b"
+    },
+    {
+      "path": "Gallai/TwoException/E5ProtectedClosed.lean",
+      "source_sha256": "c975e6e14eb1536d685d2099a8c4a70eb48f7d5001a625c908c61744340d3ebf",
+      "ported_sha256": "138d14150372bae3780be711a77985090dc3eae54004ec34b2fdcd89df35f33f"
+    },
+    {
+      "path": "Gallai/TwoException/E5ProtectedReduction.lean",
+      "source_sha256": "622c9614e3187f2a4aa042bf66f6a71a252ecb88559a937a9d054fce07869c2a",
+      "ported_sha256": "73c5b8c8a13552caf5ad8c109944bb52bde27a4407ffaeefd3e951fcc5fcd433"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyAllDoubleRestoration.lean",
+      "source_sha256": "6f38e6e994d775bf3c46a906253af6014c12dc6ad6cf3e9362fda7fd99f3ca02",
+      "ported_sha256": "77b7e6ede63d5e8fd0d709873134b59e2ebed32e5caffb909f9ea5a91d7d3587"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyAuxiliaryBudget.lean",
+      "source_sha256": "16e0d7f4381ba27029b2012ca1fdaa07e97cbc1e8528a1515af65bb6429293c6",
+      "ported_sha256": "da7b7c84a8e3dbb31c63b8665516825114a923d2ae6cc7cb5e0e2ccf0fabf14e"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyAuxiliaryProfile.lean",
+      "source_sha256": "d0de2a39223fd5155f73231b5478aee373d4de3b43fece6b85d4b5ceffb2da6f",
+      "ported_sha256": "3668d60650ba7ab2fd23c7de82f67d66dc44407fdc4b4897f140593acfcbd6af"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalAllDoubleResidual.lean",
+      "source_sha256": "647985f50e5a9de037e50e6e0515c750da28ce26274b247bed6227c74625a3e5",
+      "ported_sha256": "2429ad5572f2934c2b617255b63ecb9a4ec6b692f1c80f5900deba2d41094c3d"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalContacts.lean",
+      "source_sha256": "a95fd3502e710b98c647d71b46b68cd3f7674ffca2bc5b7e77e0b21fb470e7af",
+      "ported_sha256": "94426d304e8172c08343e710021eeb683875b846ca2961e80d0aac0683893722"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalDelayedCases.lean",
+      "source_sha256": "cee3c8730eb3ed72ae277e7b37ea47459bb83478fe3b50399fe3480a24e965ab",
+      "ported_sha256": "075ab4317778fcc2218443ff932abc3c4b8ee994cefd4ad57a6087b4e8d2dcdf"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalDelayedResidual.lean",
+      "source_sha256": "a8e0d6c12dac91314c64115b81d9d5a1f4b31ce0a9263752b1ad50fb33933c83",
+      "ported_sha256": "cad384c369b15a1bfbe07bc7e93e13fb8c9b896911f1c2b4a43cd0cd7373d430"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalHubAllDoubleResidual.lean",
+      "source_sha256": "fed2dac5c7ec553861f00280361dbafca158fe4365921c21bfee18f5659ceb9f",
+      "ported_sha256": "597c99d5a0ed403c1fe147f261a0618d7b5c953817c6df32e5756d301624486d"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalHubOnly.lean",
+      "source_sha256": "1290a5210aaaa40bdd73ff610bd05eda34c1a723b8c646a060b71acbdd5158f2",
+      "ported_sha256": "983b3bb5ed3308117f3279e5addaa9b1bc3edde6faf4f83ea2d590d64caefa02"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalMultipleContradiction.lean",
+      "source_sha256": "4debd865ff4085da5b8bb05bce6e73311a23a12703db7b7dbae099f0ee2695af",
+      "ported_sha256": "76b135c938c031a4bbfb26014b21daefeaf0b7d34702a3cd64accbb24400e2d1"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalMultipleHubContradiction.lean",
+      "source_sha256": "a8a1e4d3372a98b2d51470a00750080e82e318fc2c9a9336655e7168904e0369",
+      "ported_sha256": "58c646242bd93fb1236a1e88a4210e145f57b25184c41885349da3f20fa800de"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalOddSingleSelection.lean",
+      "source_sha256": "87d853c3b9f25bbe3e304e05b65375b597eac3027787c5917b4f6abde4e37c63",
+      "ported_sha256": "68b82b364d8d3959dc9774528bb3abd8b8c1241f41ec48b149f03f9499b99ca0"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalPrivateContactResidual.lean",
+      "source_sha256": "d944db2c837a8cb7568714b247df4bde2d94e2345171be308d7ba272c665fcc7",
+      "ported_sha256": "d665627bbaf85d623c6033c8444bfc330fe3fe87a2d629700d312caecadead3a"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalProtectedZero.lean",
+      "source_sha256": "28875ab3eb4605fc7d142cde1dce3340f9e904479ba3ab2a8cbc9e37ed69e54a",
+      "ported_sha256": "6cdb710eab061283979e1e087047f9e17c94f53da170a9fe44d12d0ae4b39900"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalSingleHubContradiction.lean",
+      "source_sha256": "e24e87b6b9cf979e6ebeb6e24a29f694e3b4bae36a27d71f5082a6ca038d6fda",
+      "ported_sha256": "70c54f4cb72016ba23163df8a5a4e800a2b30f1174021781aed02b6fc8f0743c"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3E1Contradiction.lean",
+      "source_sha256": "2c38306001618e38680050b99f39f2e9fe7bc5f0e0d987b6b61ad348b8baee0e",
+      "ported_sha256": "b988439c7308728e1b354b18647ccc0974c1ae01ce7b868e7f092f1a4a52cf0e"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3E2Contradiction.lean",
+      "source_sha256": "567fcc00ed326213557ed537f86c5ab20db3315c4e33bde4218b172ce9725ff7",
+      "ported_sha256": "d42b8188d85901fab62a881fe37c7af94d6c95541ea3b76c2c343851542055f8"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3E3Contradiction.lean",
+      "source_sha256": "94d235da2dfab88ec959409279872998a89c750e44c306659601827f7b941359",
+      "ported_sha256": "f9eb9b09c153683163317758b0afd539e2858a28f3c247e9f36e896d52db2af4"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3E5Contradiction.lean",
+      "source_sha256": "61f1c851425d3de0bb57a3ed7de512c2e95753744b23f98dbeb8e19208f4dfa8",
+      "ported_sha256": "86b6d57df468102dd6bd24a5489db9484b095f1df97abbf94407b7f1470cbef3"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3HubContradiction.lean",
+      "source_sha256": "e467ee84b014db347e2f9d7f09dbe1404cb4ef38e91241f74a792b366c9c450b",
+      "ported_sha256": "22e87f46f28b436bc1fc719caec188bd53a9d43c72a1bfa27e619954d2482d28"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3Labels.lean",
+      "source_sha256": "a4794a72145860fc42ffbd4c6b35fd6b076635e65d7aada83ab074f109e7a1be",
+      "ported_sha256": "81c2aba81aeb040d2ec8dc2aab0edc72a0188ec1f178ca74571d256ae45cce3e"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3PositiveCoverage.lean",
+      "source_sha256": "07bc135027023ca12353d2251605ecff206140e40cfbacb1366d7457a5e42b7e",
+      "ported_sha256": "df25f94087172a6be4e45c2cd53da7e40eb940e08de4eabf5397270b8c65854c"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3SingleSelection.lean",
+      "source_sha256": "9eb7db9833515f6bdad5e75a55133dbc024894f4d81390828d1db86118744bcf",
+      "ported_sha256": "450a2ac2f5b64f6cd6cd21c9397d4f8be79a60deadc76b852c96b1d0c064f7ac"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalT3TwoSingleSelection.lean",
+      "source_sha256": "c931d212e6be6d9ab559e3e43e38211fdc34357deedaf127733e0c8b6e540015",
+      "ported_sha256": "b3ebe941d51e3ffa4bc221370ba1fef1ec1b11bc7e9de604f8b724352aaa71d6"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyCanonicalZeroOrT3.lean",
+      "source_sha256": "022e69bda865d0dd6bd13b9f3a7c43b7e9cd6345693da2ecd247530d37eba027",
+      "ported_sha256": "baf752a0f11846120bcd94acdaf63bd9112e0795f1e1459d77bba911d89200b0"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyContactPartition.lean",
+      "source_sha256": "d9924b474d0c46c10b19f24c7ff2898f00584e122d053042265e457f587e3b20",
+      "ported_sha256": "2f16da640f10970b243a9e83d05c2f3be67cddc8ec8a344ac77fd5e5db7de337"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyDelayedContactAgreement.lean",
+      "source_sha256": "99ecc7755d18d90ed144b90eb6a1069a72a9369d65bbe79075034a6bd2eb6b99",
+      "ported_sha256": "487dbee177914c1d02eb7bb9794e1c5f99ff17a8b03145ea5615bd0bd35cf766"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyDoubleSpokePreparation.lean",
+      "source_sha256": "aa17bae3d2ff375e653c1b2dc1c960c517ce36c79a77afa9104d218c0cf3a969",
+      "ported_sha256": "75a155c88b8fd131efe1e77c7fa5bf949581fbf13de67dac53cc99634b9ffb1d"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyHubAuxiliaryBudget.lean",
+      "source_sha256": "a56ed72dbdce7348e092dba6354ad29eb8975ff9c491ceb36d377a749bebe7aa",
+      "ported_sha256": "ecc00a0249edc32d1f7a69becb820fe770c4d562f315384f6e5f420c4c02a9e0"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyHubNoncontactPreparation.lean",
+      "source_sha256": "3b519dba000d8609692be484657cc96f984fca6972f65dc57191d083b1534714",
+      "ported_sha256": "44ef7058a28f05ed3df73309cdfc9ea1e060fdf3893d55480f9a6157b75ef1ae"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyHubPendingBound.lean",
+      "source_sha256": "573dc0edddb72d3f540ee9f958f2dd40a240474d7e1886dd1e4f7b9fcbeb933e",
+      "ported_sha256": "73c359022644e4b7ca602dd16542d1fa9bbc52c0cfab1f6f2be9718f3860d3b1"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyHubPreparation.lean",
+      "source_sha256": "15bd9abfa667a4dcea6ae2130d6fd33df5aa43f573f0b90c5fbf9a1744276094",
+      "ported_sha256": "6c0da876b1a2b48260b682462dd16d66dd7fbab2bc54bc98350256eebec1c523"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyHubRestoration.lean",
+      "source_sha256": "38c164e824ad7dd4a02fd06261c8ff35de5910db08e514418b892cbf6684279d",
+      "ported_sha256": "106fad407995d01f701cb5ca8a5e33f81c2306f7ceb949acbf131309ad3938f9"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyHubWindmillGain.lean",
+      "source_sha256": "d442562dfd5491ddd3668efd4432ad0a3a35e31212e1bb967304deaa9094ba79",
+      "ported_sha256": "fe0ea8e185dbfe8618a18efa7a9ee73ca26eadefd707c81f1f79357a63bf00a9"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyMixedComponentCoverage.lean",
+      "source_sha256": "405021348021745898f7b4c6f85c2be9bc763e9a1c16d372a28d84c57d6751ec",
+      "ported_sha256": "0970d2ae7d088efea20bb4a0c27c30f0ed8da3542ba566699dfa3dbe9c7ad77b"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyMixedFamily.lean",
+      "source_sha256": "148d44e3a54a3a6538e69f7bafe88a62d68725bb2d305ba2787f8d3b00cdbb70",
+      "ported_sha256": "895d36e2a9a227a710ff8a7dd39d3568a75571f5de961bccaa9da3442e455f15"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyMixedMateGuards.lean",
+      "source_sha256": "0ecaf86e5bd60ade9ba5f965bcf9cfc7383aff7fbdfbc34ccee5ca9ff3bfcd42",
+      "ported_sha256": "03ec001afb8cdd7ccb2e99e592e47aeb3736b002449aa0cfb26ff8cd4a57499c"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyMixedParity.lean",
+      "source_sha256": "c081189d3a088f0977ba2fdcaf9a393e87be2e468ceb1cc3f0cf4a04741b793c",
+      "ported_sha256": "fd1e10e2737fc7b2470a0d2c60e69ef551ebc2a52dd68f25fdf736e15021088b"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyMixedSeparation.lean",
+      "source_sha256": "35242781c301a4a6fdadde9931d8cc5fc9ad1e56854391a61b1556148b19e233",
+      "ported_sha256": "6b4100c9fa4808619ea626bc4b47e30a5b0fa61a92a87434e8c80542b361098c"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeAllDoubleContradiction.lean",
+      "source_sha256": "c08a2d33899845d76f2bce5c8fe11aa9b555c94176c96bcd18305b1bacebbdda",
+      "ported_sha256": "90e17ad3a79450df7443fa262b0e2db002185c283bdec56040fc0df97d4c66d0"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeDoublePreparation.lean",
+      "source_sha256": "50e9b8f06e00c29156862e095029e382933e84f8058598a17334a59c3e6c7f7c",
+      "ported_sha256": "475dd073c9bd63ca4d1f568cff8840f3e1988dbe3a8b3391985b5566bb4dda05"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeDoubleSpokeBudget.lean",
+      "source_sha256": "b5f3c1da0765cd697c2f8471fbd4eeb1cc0afec9c5d91cf2bcb7e29e71f2adf3",
+      "ported_sha256": "9a637295042fbac09fee9d3f4e2513bac14c410d79c2ba2f99ab92ba14a763f5"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeGuards.lean",
+      "source_sha256": "8ece5a5a238141834b7566f105d9e7964fd4e9c0dc012d92fc475347528ae75d",
+      "ported_sha256": "0d41342744546f16b5c7d941c8e730970303fc5f2a46d7d4b7fd39527bf39f5d"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeHubContradiction.lean",
+      "source_sha256": "e4e4b3179ea8e026015830c025c6ebb6c29314655326caecaecfa56e723461ac",
+      "ported_sha256": "646cc61fb47db683c8491b2a1cacb73be850fa352f60c60d5559c4c9373396a3"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeHubNoncontactPreparation.lean",
+      "source_sha256": "73759d0c6476f0b610804d4e4b61e831894a740f428715a05a6aee306cc938ee",
+      "ported_sha256": "bb1c400674172fad4e81dbdd8ce6b0b288d54640da39bae71c3d4e15038c5d2b"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeHubPreparation.lean",
+      "source_sha256": "1b49abfb8dead1ea00c8208000f221504f19c75b11a930a6b29b4f1066c1a729",
+      "ported_sha256": "db50e581fb1eda1c80c2141013ddc2c9d1b28c41de238a537e2f08316742aec1"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeNoncontactPreparation.lean",
+      "source_sha256": "03a0169d0596ba03f96542484c92dfde9015390a7e4b8c2e7ab314f73335d1ba",
+      "ported_sha256": "1e9edc2591036ccbe7278c5381fb9d7fa58fd34496775703c40cdc84ca9ebe43"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeOddHubContradiction.lean",
+      "source_sha256": "79dd7fc11057b43e493f0f76c02b7d4e066905ad11a0c49107123d9460dac7fb",
+      "ported_sha256": "310f69d79e7aa0a5c0f1bfe02d1d7d6da7697721645e8953010d114731268a75"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeOddStarContradiction.lean",
+      "source_sha256": "56acf2ec613033e94519164cf5a2d4926db8689f6a95570aa12fcd3d586aa89e",
+      "ported_sha256": "1472678798d1b8693c7b582d15270580dacb353750ca1a9558e68fda450b918f"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeSingleContradiction.lean",
+      "source_sha256": "1a45121ca6ad95b0433a7b8c1c005a07c399faa35155adfd87c4fa52c3717d0b",
+      "ported_sha256": "65b24f91649774862057f9bdee3dd8e851eedd36157ae9e690248a059358d671"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeSinglePreparation.lean",
+      "source_sha256": "056d330c6f422242d2341984430a508c014830bd20762b0d3d946476d944107c",
+      "ported_sha256": "2fcd050b03d0cc24fbfa72c2bce008e603004318e4f0af67f2b5c0fb2cf7824a"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeSingleSpokeBudget.lean",
+      "source_sha256": "7b57d72cd0b315cbcf9fc985a6ce2d2adf8b2e4dbc7656881810bae7fc0066b7",
+      "ported_sha256": "3ddd4307606da650ac512f6a75db9ef4620924d1f70876e93c844e0136ffbfa5"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeT3E1Contradiction.lean",
+      "source_sha256": "66fc816cffe19ec4372d64321c7f474f851baf9b34b779493e93def089b55734",
+      "ported_sha256": "bbc6c615721d25e3fc77ac4130c6a76e7b469cb4ee4084e55192fbe9cfb119b6"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeT3E2Contradiction.lean",
+      "source_sha256": "e20414874f0a29bb5d5fff788c85751ff8e39758e66fb02bdd8086a34e5047de",
+      "ported_sha256": "c12735506915140dadf5290bd1990f598625a763eb6b60829d88af751571ca9f"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeT3E3Contradiction.lean",
+      "source_sha256": "de7c807f9bad2bd8121d8bba4afea00e98a79c5133fe1b483c140ed36b6c0704",
+      "ported_sha256": "707cc74390e1da9a3e8c4edc2221f652b31a98ac581325abc6a906f4ce1c3d4d"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeT3E4Contradiction.lean",
+      "source_sha256": "b76b5592a2a02badc532c1195b3f06e752335d40a1341e6a037f8e31a01438e3",
+      "ported_sha256": "d941ecffce0d8343b14a39ced108f396ae894988bece952dcd351ce7176a09ac"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNativeT3E5Contradiction.lean",
+      "source_sha256": "45d1c078c7795e652d17b01d52142b827e8ca7d0f4eaeaefaacb5e2216721579",
+      "ported_sha256": "f8828ad51b88dcbca9bafa694888e09d779b959145b964d6702e727d334f64ce"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNoContactPreparation.lean",
+      "source_sha256": "78725880750dd5c916571561da458ca53a018c9bf9817c9feeaae581ed1daec9",
+      "ported_sha256": "db6a3bdb94989b966dec1261219cb997bd007bf83e15122123ce078e35ae8309"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyNoTwoContactRecipient.lean",
+      "source_sha256": "cd6e2e8ae4e78a679747065c6dbc51f727c518da6d57b2dfd2657d1c76ba4cec",
+      "ported_sha256": "f8ae02f87095d4df7b7762d46f6e6b8aa6e726181c25b1f5b5a39c2b900199cb"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyOddCentreSpokeBudget.lean",
+      "source_sha256": "cd1626e248c684aaf11fa521a4a1396add6335ba7f30a22e9f7671cf44468eef",
+      "ported_sha256": "bc079baba266f0801810f59930c39b283eec71fb7c8afe5f1d500fac77b0ebdd"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyOneSingleMultipleContradiction.lean",
+      "source_sha256": "571c1e7f0324514b05d549851d1a28a55611796c1a2ce054d81fdac2a1ffb8b7",
+      "ported_sha256": "781a70422fa0b579c053ba1747d695427b2bc28696db85084baf33c9ea29e59f"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyOneSingleResidual.lean",
+      "source_sha256": "fbcddd18f2f4e8f0d0d94fae0b5f01cd07617bf43519ec4e745c73087e062d5a",
+      "ported_sha256": "359278473b712fbb14f77af473df7c433e20f88404989e772009fc03710c6549"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyOrdinaryFamily.lean",
+      "source_sha256": "78827aef2b8616e08650a4a17db382325a0dd623936f96b9350b83b8dd7a4081",
+      "ported_sha256": "a252e22716be1b77b8ae67072c6074087a3bf5b3cc10840cd35edaf750821db5"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyOrdinaryPacketGuards.lean",
+      "source_sha256": "84279ecc43af2383ba5169e89d3b505a7cb953fe3d3009352f57523ffdd48237",
+      "ported_sha256": "233d20ac9a5d2e5fb0c97d34957b1aa6478c44f47f602fc3add396fae4ca014f"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyOrientedFamily.lean",
+      "source_sha256": "7aa5469da87393c8d073f1a5d6ee0b1346e0da8020d99e2ec3de3f3073d26f95",
+      "ported_sha256": "a6bb14504fcfe0622d43df6c35c59cae0c6add9681d2bd37fe1c5b354c5a6767"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyOrientedMixedFamily.lean",
+      "source_sha256": "92c371903152edd31121d1fab3f6f79f0712864bb6d8ecf96c13ac13dac68383",
+      "ported_sha256": "0e206f4da06fab728e0a877911adb35a3ca61fb9bd4fc18abef6df54ba67d09c"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyPrefixRestoration.lean",
+      "source_sha256": "bb33cf454150fe586b1d382dde4b5dd9023770b1fc1388404a86218573854745",
+      "ported_sha256": "172200b4921bbce9e9c2b42eb59cef888a6400e43ca7916267bdbd2d4d832aac"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyRetainedSpokeBudget.lean",
+      "source_sha256": "7502edaf49c3dcc72ce6132ac79792cd00e28a0af91966b62952cd17537be3a5",
+      "ported_sha256": "252ea1405a3bf233b5479a7264efd6e09ccdbc0217aec8b53ff927a62c72633f"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyRetainedSpokeProfile.lean",
+      "source_sha256": "50c95b5137256fde574cfdddd9232b9cfefcea447c6e2c56698a144e2fc390cb",
+      "ported_sha256": "683be43b3673b5b8b1b11798b518242c2d1878d70e693aa7f089163cf0d4c07a"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySelectedAllDoubleContradiction.lean",
+      "source_sha256": "2dfacedcf3036249c084e00f23ebc0d15e4d9933dd2f135ceff4cbc6a1fbd6a4",
+      "ported_sha256": "d90a2c86c86777a97cb21a77577a0324509bba053eee690423b751faad1b4700"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySelectedBoundaryFamily.lean",
+      "source_sha256": "a562ad851b746c8a8861973d431dba0177d436d8db5657cec84ffff176bb6cc6",
+      "ported_sha256": "9fc31aa06be350e04d70170ee38cce25b0563986bb3174f7ea903b8ff4b7659b"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySelectedHubContradiction.lean",
+      "source_sha256": "03718f324a1c45186700b0c372d8b7cce640f7f1485a7b4036808ae25f29edac",
+      "ported_sha256": "5ed37aa802a3022514037abf19fb55c420d5f7938a411807a346f76b3c4ef33e"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySelectedHubFamily.lean",
+      "source_sha256": "3e97b0ced99408173fba23292ae619aa12d6824936c5eacdee9f8dca569f4d19",
+      "ported_sha256": "26f4e49a9577e5c26fac67c2d0505268ed140eacffc1080a6dbf56a9dd2afe55"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySelectedMixedFamily.lean",
+      "source_sha256": "658da20398b04bf60d115724cded584c5c4e1cfd18d1df71bff1056b8e523fd2",
+      "ported_sha256": "ec03740123dc4526ed1202eda336830761381e451433253d4ec08b79c9362142"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySelectedOddHubContradiction.lean",
+      "source_sha256": "59d83b9463bd4b0da57194441fd710b4342b2f3a95d9d3b9066ab2d40010486c",
+      "ported_sha256": "6baf4089253c333373f20913cc94f399836636c1bb018d311aa2c64e23acec8f"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySelectedOddSingleContradiction.lean",
+      "source_sha256": "47f3d0275586a0800a3afd95d67ee7cb3d3e92072f65519c114b0706ddd6bcd1",
+      "ported_sha256": "457c2521da4ab3af27ad978043abca8964caa013cc6846c87e3fc62f39b9d3a8"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySelectedSingleContradiction.lean",
+      "source_sha256": "2b73fe52f381a016a14eac7eb697c41cddf5e3c22044cf17d7050432795c9e69",
+      "ported_sha256": "db6871ddb1e9217fc4e25772d03087ce8d46ac8f8e0e3c4f0492812087fc4d46"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySinglePetalCount.lean",
+      "source_sha256": "19026957d807f3bc52997d3ffd4b90026415a284dad19875e2740f0f4910447e",
+      "ported_sha256": "a1392f9e7035c4bf48c247234bc6ed912003a43612abf00cf8c9934f3dad8c35"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySingleSpokeBudget.lean",
+      "source_sha256": "d17a892721ba11a7a73439d58ce7441f94602ab3348d0dcf5c509adfcf6f088e",
+      "ported_sha256": "caef5f2fcb3701a729c34569432974ac07c116ac393bfc007b4ec902a3db4d44"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySingleSpokePreparation.lean",
+      "source_sha256": "b47f1b88de585a1956d6174b9459f688c0095fff3c0f60221d2e322072d37bf4",
+      "ported_sha256": "80d43f232f0501792e2aa60f5cd9ce471abaf36b59f122523138febaaa40ad1f"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySingleSpokeProfile.lean",
+      "source_sha256": "ee8f79186977e5236c82d4384dcd329af33bfc9e5585125f2935e138b1d2240a",
+      "ported_sha256": "c9446fd9c52f52f2f306454d6b13376b5a9f25795d47de8f61c4d748e8b8f775"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySoleSingleRestoration.lean",
+      "source_sha256": "f79563e4f1bc31e69d0ee6eeb615f1c3fc3f59d35fc714e99e6410bad5520ca5",
+      "ported_sha256": "349799437c8714065be1ee035bbb534e8c0b2b3ad8c1846cedf9b47b8c11f29c"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySoleSingleSelection.lean",
+      "source_sha256": "2a1dafceb3b3cc0d90ae847fa263327aefa623919d7218903ec1ea7c054ad0da",
+      "ported_sha256": "532de3caa689a46d3decf5441b8d0fe36dff274685688b103ec4c18bb6611890"
+    },
+    {
+      "path": "Gallai/TwoException/EarlySpecialFamily.lean",
+      "source_sha256": "7080b1392b018884e5a01d835e9e4412b5561f87424ece6940956cf40aeb346b",
+      "ported_sha256": "8eec7cf460f7b56deec9dd30f7519fffecf96e8c8421be5a5ee933fd05ffbffb"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E1Restoration.lean",
+      "source_sha256": "e4d61a580b0fd69f4542a554431fe9e7f15e2ab11f5db943bb028a0ac6d14ab1",
+      "ported_sha256": "46682da94f50cb47472feda7ea44b50e04f3c30786c4096c32388e96ba9baf09"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E1Retained.lean",
+      "source_sha256": "9bda649bf744b5436a0d8724da84487daebf718ff0c4ba03ae5bafbdc5a8ddb9",
+      "ported_sha256": "0878c1b5b9e8e23c62654892c7430ce35986d4215f01075847531393a37c8bd5"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E2Restoration.lean",
+      "source_sha256": "15dc4e56aafce589f2c983c96d61e6b4e9c83338d0bd63d2dc968f6ffe2486c1",
+      "ported_sha256": "fde62338d11f79025fd7ac66e350c14112e001f5cb657a24d075e436d12b4c24"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E3Restoration.lean",
+      "source_sha256": "dcab2be6198bd8f58248369ce178f138c8dd96f4c577447ee4d3781f4b3655ac",
+      "ported_sha256": "71c9c0d48902602047bd889cbe96de2935c4dc4785a4277e667ea56291449031"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E4Budget.lean",
+      "source_sha256": "98cecf33fa3ff094cf22f04c6ec620113e339a37969b9cae3e66541d7179c616",
+      "ported_sha256": "5e50269cb5cb729b8bb248f1dfef046eb198c0d0e2ccf782318938146c65aba7"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E4Restoration.lean",
+      "source_sha256": "4e709005442ab49a40e997135cebc8d489ec25a83d9c604013a1725a1e31b284",
+      "ported_sha256": "62402c7378a72edaa3287b57596864d249a74509191b3874901dc75a0c076dd7"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E4Retained.lean",
+      "source_sha256": "90d9591de8947fab8027f89ffee4e41af321473d239d804c832d0d081febd7e4",
+      "ported_sha256": "74f6d7da9f6087599a7616757625512906b230f9bfa26243c77ccb6116bf41f4"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E5Budget.lean",
+      "source_sha256": "8796ef163e2953bbb474e15d4f725e280eacb61d54f953572eebd5212e56f656",
+      "ported_sha256": "c6b6f30c5e013c8aaf903eeea8c3ed36f9f91c0386cdfedb9b3526a0ce9017f8"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E5Positivity.lean",
+      "source_sha256": "6d9c80e8f98eed59ad57903eccdf3eda2ff7e621255f87910af3db9d16858cc6",
+      "ported_sha256": "85b31f2bb67c3e3a30e1df13268116a0e2cc37b7d67d287aa928a11a6352405e"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E5Restoration.lean",
+      "source_sha256": "6f2f5f09b36046ba41d472539510b11d870fe42bdef36a3956943f60b8132c5c",
+      "ported_sha256": "034888d6905a7d009ed1f0f73c87b0aef2278239276462aebab4c155dba3666a"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3E5Retained.lean",
+      "source_sha256": "ac73683dc88328b4019ddd1320dc4a111102868023e84ca4683f2c19ede80fba",
+      "ported_sha256": "73e0c80146a9eb09f1fe2cfff6c0cb47e39eb16729cd533fd946e3df1bb1eb8b"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3HubBudget.lean",
+      "source_sha256": "701c69c8c396ea2dac8e043fd6e603414ec7aa8ff19c5fd740c41c07077ae9cf",
+      "ported_sha256": "c82a43b494a98354359e5b16391759fbb9b0cdc9e5e369437ca4e44565448adf"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3MateRestoration.lean",
+      "source_sha256": "d54e3f0cf56fd4d1bc6551718c19ddff692a6dea3ddf4614b685f8f1d9e90dd1",
+      "ported_sha256": "ffeaa8289689bb0e3ec6322863c58adf0df442e7eb777952895f8a22c2933c5b"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3ReservedPositivity.lean",
+      "source_sha256": "fc2a329af6e958ec51b7e97bda1b6edcf928af8a42fc96ae6e6c0b166e23fa01",
+      "ported_sha256": "08ceb98a70319b5dbc6de12c2eaefd8751e2cda676669250c44d28e68ef5223d"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3RetainedSpokeBudget.lean",
+      "source_sha256": "2eb24e3ad2f5132c031073e3de68bf24a4e5b834b25f6bdb468cf9ac7e350d5c",
+      "ported_sha256": "7d61c81e4643539300f85945844b2ec1e0c6f7a184c0ade46e94c524eac4b370"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3SingleSpokeBudget.lean",
+      "source_sha256": "19dbf3ef32abfc6de74c89e22be8734f0a0d9fa504e249a4607435dbc0c3859b",
+      "ported_sha256": "4690b9e07cf5a0749a53209bf2e1ac1b89ef810621ba686bdbab4a8762ff2b18"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyT3TwoMatePositivity.lean",
+      "source_sha256": "9514dd8c44457499f2cbde44d7bc49c96244eae6230d476a974174f3143fb6e7",
+      "ported_sha256": "da22fa64600eefc247e70eb385df4913e5f75995730dfaa5f71f622af0cd64ae"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyWindmillAggregate.lean",
+      "source_sha256": "134f41d51a34f51655b354180a263ac926153b02c3fc9eefa5bbdea969ad0166",
+      "ported_sha256": "fd6ae49df78c1bddbe8910ac0c04106d8d8f90b91bb2c868d964c8f8c41a57de"
+    },
+    {
+      "path": "Gallai/TwoException/EarlyWindmillGain.lean",
+      "source_sha256": "76c79fe9738939c79982d0fa22b391c30d606aa368cd36c5e8b3c81acb8b69b8",
+      "ported_sha256": "e420a63a3154633ed5a538fe57d445ff6e6ba7708d9e10de353468a64e61a417"
+    },
+    {
+      "path": "Gallai/TwoException/Main.lean",
+      "source_sha256": "709af66f747c92318dbfecc9d22c1a368b4993717c82ae6a7194bca42bc29f34",
+      "ported_sha256": "d0550889f9dba230d86f3be3c8484a1e774f982db773ea19cbdf5078e6002b2b"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAmbientGain.lean",
+      "source_sha256": "2609240b0f34fe0bc4802334aae8a30577f2f5133a7c377b09a05002182b0590",
+      "ported_sha256": "1e856e3c21710d2d266a208334e38ab42a50d8d1a4ea83f6421d01b13d832bb4"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAssembledBoundary.lean",
+      "source_sha256": "c9d9085280df927c5261676def5e92efd6c89680401d49498fafd23a7d138e24",
+      "ported_sha256": "24985987b1893f2a7ea7ae37d07c5fdc10670fbdb20eb54b65f5da1e3f8f40be"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAssembledCap.lean",
+      "source_sha256": "8f0b7d12b26d9d8b1650cde462b30e08cb2fa967435e8425a86e46de7ffff55a",
+      "ported_sha256": "3a41ef52cf5c8c08e97eeceab67ece68b60dcab1b01e1e10d06cc485e593ad37"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAssembledFloor.lean",
+      "source_sha256": "77227a4a3be32af64a455b034b53927a99e4fd1f938ed04aeed577046954d53b",
+      "ported_sha256": "82bd088989ecb62463e90de34453d85809624bac4d59471f180df8805c1a7473"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAssembledHalfStarGain.lean",
+      "source_sha256": "b1ff1cfcbf68f91ad510c1167ee97d860ed564f531e288853edb82d945a45903",
+      "ported_sha256": "5f12c0fa9c5a811fd1413f9a2f5130f9f7a7911c8f85444aad94f0ddbd803267"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAssembledRestoration.lean",
+      "source_sha256": "1803881f6a1490129d7ba4dd7d5a5dde6d07a3ca1c651ca781458e358f462df4",
+      "ported_sha256": "da8c3352e3ef30c335746f2f89429ca6fa148ac58bbf619c17fca5548a022477"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAssembledSpecialFloor.lean",
+      "source_sha256": "6e4d675b431f45f8ceded20f53e8c51f60997272dbc595f62508511692fcfe44",
+      "ported_sha256": "25d5ce7fce472a0826532b6164087655d85060342c27ef2ea68735301cad81f7"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAuxiliaryEndpoint.lean",
+      "source_sha256": "181c1684f4e017e16179d90d433c175fe049a164bbe10ecec10fd61a000bf23b",
+      "ported_sha256": "7ae9dbcb22225bc3cb8f68bbc6adfcccac38effe888760d48d89b97bd531d34d"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryAuxiliaryFloors.lean",
+      "source_sha256": "bfd1a86936894e08476947cfd651f22eaa2c1d08ffd5fedb19afb3482a59c18d",
+      "ported_sha256": "4f2c7d887b2448bb7e1d6fdabb2ab4d89ad74daf21cf4624315da3175a157d0d"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryComponentPartition.lean",
+      "source_sha256": "19ba10ab052a074c1a234be41229e198c26280f873921b0aae719d8c8c2ca7d7",
+      "ported_sha256": "bf9af60028aa715e3b311b04be06e542682b936addef69ff11714c8b2c2c0d37"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryContactShapes.lean",
+      "source_sha256": "ad820dcb41774ec9cb17dfbea264734a05e867cb180153943d85f18b27381c2d",
+      "ported_sha256": "3fff2d1404b6c536344d1cdeaa285166cc7c3ef75488dd331ee7c879e92c47ab"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryContributionSum.lean",
+      "source_sha256": "4e54bec8d6ba158afbe55a65bf8f02dab912c3de8dfb7574a4c93c754b4e458c",
+      "ported_sha256": "0810f4f911b2f017cdd28937f260ad1fb39e96dda840d0713752be7ba99e5b96"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryCycleContacts.lean",
+      "source_sha256": "b36e080362ed12c6448a787311cc53fa35a90b628dfb2c6a3ae79841d8b4bb7a",
+      "ported_sha256": "29990e650338bbb4b05f960d2cbed59a35c160973c7ed6cdb530ed617c829a94"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryEvenRestoration.lean",
+      "source_sha256": "9dd0f6097c0ccb205b47017fd03fd3585426f595b8968c89a1148a6e827e1eb1",
+      "ported_sha256": "6facd846df4a657550ada32d6ef6cd701f7fc72076814bb6cbac2e9f1b9f5345"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryFailureContribution.lean",
+      "source_sha256": "0ebd2622da15e807d765c187c6ae1943926711577f40907f80825c26d3426398",
+      "ported_sha256": "311161ff966e05398bd96eae1ace00600f2f4e9a111873a4394fcd6d51444b53"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryFamilyRestoration.lean",
+      "source_sha256": "71458d2f9dac13d83e978222dbe94368551cdd2f0910016a8eec4765ba28b794",
+      "ported_sha256": "707a4058ef4d309f650300fb49be0eaf3898de558d7e3a7f305417980ad5727e"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryFiniteMateAssembly.lean",
+      "source_sha256": "13a90e2fedf28e5c128e3364bb93dee7d4e51437ab857b9447bb4428d197f6c4",
+      "ported_sha256": "520dc5062e6a7c5d41a6f44d18e846cf8e4840b54aeb24c8850f82fdc1b4b9fe"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryHalfStarProfile.lean",
+      "source_sha256": "eb8cde871aaf6ec2484f81a332f240a9607fa9d876c6a8804d0455aea214c87e",
+      "ported_sha256": "b0a3548e7a1466b55376d1f7b4ce3dc42778f70c95eee49d836f533df958d703"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryHeadRestoration.lean",
+      "source_sha256": "215a8655af342eb20b551f0e083aa44863abeb0f117ded5e7834ebc15b520df4",
+      "ported_sha256": "01ca11145fe7e595c0f4bcefead5662040495a2ac0479d7dce5c513d10fb2c59"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryHubComponentFloor.lean",
+      "source_sha256": "8d0b14c2b42f54b2dc956c63a992a36bd4f0b89eb1919ef480baddbdd116d427",
+      "ported_sha256": "9ad9436c9a5bb2e1516f29cfdb2108afe2bd2c7ec2730d0b7c07f5303e01ce40"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryHubPrivateSelection.lean",
+      "source_sha256": "e0d5ba57781e9a42482fd56aac1bbdfda5582e341ca3509063b71263797bdb24",
+      "ported_sha256": "11a016d169d9fb9b53bb2d1ed471e8a4b1c3354a2ebf8731fab1dc2073c9b74b"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryLocalPreparation.lean",
+      "source_sha256": "b66ed7db3cc534bf1c1d4f262ad9e74f30b102c8a5afd7ca9898c632fc139829",
+      "ported_sha256": "cde89e43e34c1f68f8f9eb743e5d27549d3b108d77584c97b4a1b4db8c9c1f47"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryMateDegree.lean",
+      "source_sha256": "d24ae0b737d2998698ea427a9547ec5025003f7e3c5207e71a516b78f8d93072",
+      "ported_sha256": "5e6c5e4628cb9acefc3b88a009132dd3f2f3d2f479e52a2fe867ca32135a967c"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryMateFlattening.lean",
+      "source_sha256": "06bd78261b1a500b37ced4a566639c0319cb33a0337bce622fdcd81e842bc7a0",
+      "ported_sha256": "d14f986273abc5e5df344048d1619430feea70b447513b8b73e196ce47fb7dce"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryMateOrientation.lean",
+      "source_sha256": "7363291e4d44266c102cbd11f942f0935e888cea955ac995c736372a2f64edf2",
+      "ported_sha256": "9ab915f028dfac308fe7f50cb2bfdf99985c41b7b7c2a307ee63b40455525d44"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryMateProfile.lean",
+      "source_sha256": "b3ab94c8d5dc5f686a6967aee56a4071d02d23c9cb4553104e249a41f992c9e0",
+      "ported_sha256": "00a1781aa6adcbb9f1f8061c3a6b9f83f25e355503e722a8da82fec9cfd42fa7"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryMatePuncture.lean",
+      "source_sha256": "cdf57c641b83dad23d03494ee47e8da04f867dee7a26bb6fb107bf06454a26e1",
+      "ported_sha256": "15c1b48c0624f1f0e78d09c785d047f9f726d45712458bc140bed002edb30833"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryMateSelection.lean",
+      "source_sha256": "c19cf8d8cef2e239cd3f681794687cd9b7ed5b20ab2b13e40131252cb9a1213d",
+      "ported_sha256": "58592c6c43e625d36a4b1374c3aa806816c8a7bcace5061bb6595cf685d0c997"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryMateSpokeAvoidance.lean",
+      "source_sha256": "355bf78dd75ab83a61b94d84824233596446898f4fe7bc5859c1d71307a980cf",
+      "ported_sha256": "82b4f6895fa2266a77823a6ee230d36034df46ec891749bc4a6f8e808f5e6b2d"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryNativeAuxiliary.lean",
+      "source_sha256": "cea06be41ff07fea6bdb7af9d136344528f95c5df5e3be3937cc97adff419388",
+      "ported_sha256": "79dc120ec9b554eb8b4f69afd626637f604a18250477055c84c51ff7d73a98c8"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryNativeFailure.lean",
+      "source_sha256": "f1bc323669b781fad0e7ce2f0703316941542738698eb8c8e96aa22f319001a6",
+      "ported_sha256": "68c8b3d3bcd0a088b751ff843646d3a500539f6199f320adefd53558478c6445"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryNativeIsolateGain.lean",
+      "source_sha256": "86351b019004193eddf3d3c0510972e51709988528596a89a4c3d760f973ecca",
+      "ported_sha256": "082a2c8ba55061f0a987eccf5666bfd8272ec5b1229d2d3e5da8c5d1e3088f2b"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryNativeRestoration.lean",
+      "source_sha256": "c84ae7e2a3de9dcceb30923f9b947687f05e49b457e4444ee529e75f54161faf",
+      "ported_sha256": "a0f020ac3ca54518191d53c4bd189c5e81b6a4b6e89eccd4e0912469552341cb"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryNativeSpokeFamily.lean",
+      "source_sha256": "543b0aae29355d1ce2802529353ffebf9f7d4a3f27f1a58a564a1d66cb4b0e7e",
+      "ported_sha256": "bfd78b35121f25d21da1ea40b1e537cc54e9b52c58921de1e107ab78070429a1"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryNativeT3.lean",
+      "source_sha256": "12029f1384997fd13d8e50650aeab1ea40243c76205daa78d4a0cdc9abbb3557",
+      "ported_sha256": "2c45d0e69392b75e58636209d1987214d61fa378310fc305b22db49787115d1b"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryNativeTriangleGain.lean",
+      "source_sha256": "5a32b6dd9d2a8ee470e46e682b4288f26907f2829f360add137442b3b58e345b",
+      "ported_sha256": "ad994b49f4754dbc3d76311ce91ada2510ceb259a947e406e7233f582373ab8c"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryOddStarRecipients.lean",
+      "source_sha256": "4d635bf55b37e49e0864dc77206d33f350bc0b85eca37242eeb26fb64ab272f8",
+      "ported_sha256": "92a7f0472acc7e7790d4b87401423d154296cc2bef58ff6a81cddc4d68e31e7e"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPacketCounting.lean",
+      "source_sha256": "68d1c386d17aa252146561951881dedea3792038f9563993a362840593ff52f3",
+      "ported_sha256": "5bc7c5d1c564a8af58ae9c3a46a7b1a39773cce5039eb4a39bc3c3715145158c"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPacketCoverage.lean",
+      "source_sha256": "516e4ab48751b19e2dc90c9258ebaa16b8dd19744931bcef2b2b3c773304d353",
+      "ported_sha256": "bc402a32fd58eedbc513c3ee90c5113ed17bdb88ecae510e553cb6b8712e0406"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPendingBound.lean",
+      "source_sha256": "a7d2565752e722e52f5bef18d50dea92f7fd06905bad32bd27750593ffd53085",
+      "ported_sha256": "940e35fb1e57756c8655bfda2bd1fddb7e9f6b4b5eb6f592dc19eb0b9b38e283"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPreparationExistence.lean",
+      "source_sha256": "7e6c9cc4b3d14c111fbed7b9a3ca940d56a68fc4f098c8d4b1c81899ee6a910f",
+      "ported_sha256": "ef935230d59edc39038d70e3edfefcc4790f7519a09b55d8e760f1b1f83d2d24"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPreparationFamily.lean",
+      "source_sha256": "18a79ac226ce4e884853bf3f42959715a7ed8e469bfebe097ac93af970e1022d",
+      "ported_sha256": "87e6ba5af478738eb92ab92bf972fa6c15c2d296b54429d9d5b5459c1f19240a"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPreparationProfile.lean",
+      "source_sha256": "087df68da90fcdffb4591324cc24bd1b6ca24adecee7f398e16a5fcdac5aa08a",
+      "ported_sha256": "9fb84cca489a0e5933fbcca53e6648f76ed5baa347b8ec8556a60363d8b24dac"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPreparations.lean",
+      "source_sha256": "a3b584043d1cb1fc87016f19af74854bb5867dd89b976c33683de0f840e45b56",
+      "ported_sha256": "188b690be5c8810999ce737bd42b9d8e78bb540e7b873dca0a762954f4b75397"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPreparedGain.lean",
+      "source_sha256": "05ec044c46e5b6c2d77db3da28d49da950b89e4c4cfaf2c35430c6952163e9a1",
+      "ported_sha256": "42ae0c965fc8d9d8f5ee65f3734058c210ec89011dd1016e59e2d7f81cfddb66"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPreparedHalfStarGain.lean",
+      "source_sha256": "fa716df7f67fc905effc636ed6deb195ef0e9ad3ef695d7d7053be84678de047",
+      "ported_sha256": "edab9bd54755a86b5684c2dbc2d09cf3c66c7c6a955e0ee340f346c93566d575"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPreparedStarRestoration.lean",
+      "source_sha256": "8b2baaf6a0e20e18911d5abdac98ad4e6c49e5e71a989036ad83f6bc136e3877",
+      "ported_sha256": "e8892631e83bb24adbb1316436316a16faf798eb943af156ee061ada88096bc2"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryProtectedDegree.lean",
+      "source_sha256": "d7b0795bf0a6d32f96d3682259e94f0f12a3440033394b07bd002e618d6c3c59",
+      "ported_sha256": "b79681f733346d57573c4a2bae819a0cb7a8e927e1160068c899adc53afb1703"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryPunctureCap.lean",
+      "source_sha256": "762199619d3cce0ead40ba4ed74abe0579808414ca184af59b59cbcc74b16e01",
+      "ported_sha256": "536be99bc22506e1d5a12c0e138e5471550f412eeedef8f35fa29f11fe83219d"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryRegularStarRestoration.lean",
+      "source_sha256": "e5f91d5526e46601d3779402ea59cc626c65b817d793a25d064057318e8b53c3",
+      "ported_sha256": "b1691f3f2e92f9883b991356d4badff20c8b40611dfbdd6959cd3c36a60005a1"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryRestoredPacketShape.lean",
+      "source_sha256": "c4a506f98de961c004c945019f6f5d0517c1e45e60f5757ebb9a34fc3ac7b841",
+      "ported_sha256": "967ab220f4a6218adef0311ce738bcaa4fb66bfeea18807a88bb2519f6d804c9"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryRetainedHubSpoke.lean",
+      "source_sha256": "8b06c2a2e485c8af56f078483991cdd26a95a0496cf3e93f9f9c10ce311dde2e",
+      "ported_sha256": "062e5510d7103bd8c2b4ba8821798ab2dfdcc44c8fc8932190c0878298a33fbc"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryRetainedPositivity.lean",
+      "source_sha256": "224ec7426ef4eaf4e01d077f6dce2a43ee6cc5a56ca6afbe97f6823e9e472a0e",
+      "ported_sha256": "a0c4e5980548b404e8002233ac4d04531752413a7818d90b76ccb9cf0890391c"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinarySequentialRestoration.lean",
+      "source_sha256": "6949e767fe26886c4a4f3a93387b88b2fc2d541d1dd3e5c50a2a2527b228e63c",
+      "ported_sha256": "951f251677c47da499a7e44a497ef982d1592d3f635a1db14055fea90a72d1e2"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinarySpecialExistence.lean",
+      "source_sha256": "53faf1e0de5620cbfc9b73d0c4b4896e538c35cf093338253c39761bf14dd91b",
+      "ported_sha256": "472c7d31a15fb60aa9a86197c464102e5050a6678cb199ff1813fad0e9f05bd3"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinarySpecialPacket.lean",
+      "source_sha256": "9039051e71fc834592b6f86bacaf6354e3a641bfb880246df5a22c1188bd7c52",
+      "ported_sha256": "2c3bca5a569258d35e7cdd4144e06e88ca091599ca5c473aae1caf3b489f16fc"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinarySpecialSelection.lean",
+      "source_sha256": "f6a1955587a7bcaaf88090d0dc85aae4632cd07aea18ed1dee477741dfadc913",
+      "ported_sha256": "cafd01a33cc02f4d33d10e6d95f75574d8cb5aa11806d84ec109514ae13cd2ae"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinarySpokeAssembly.lean",
+      "source_sha256": "8cc8f37f12cf3b41708f9df52f090cfe5b7893828b1bcbba50909a7a288ce56b",
+      "ported_sha256": "136d0d032c92140e5f164fa4acf45f1ee1316a9ebc0071789d5901be4153f128"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryStarMateBoundary.lean",
+      "source_sha256": "7a945d9ad224b0232b3d22341f805acdd71905abee9c149b6cc39fd454b474f8",
+      "ported_sha256": "190415f4819d544ee4635f36d741656c35dad953e358b617e616ea06026856d1"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryStarMateBudget.lean",
+      "source_sha256": "82c9b5aa1d7c07fcc133b15c5b0f4a071d5755ac0a55cc0da5e147c49be270bc",
+      "ported_sha256": "eebe558bbb70bd8e6541e5809f7835a15d2a4d020da3c38799e8575fc120bbb2"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryStarMateCap.lean",
+      "source_sha256": "5588aef13894810a9a75c50c5af814921ec40357225e397a934c0ba482c0d7c3",
+      "ported_sha256": "6146c7aed5edb1567f9a4ed406dad72e743eeaa9beacaa5aa55b8c8dece583ca"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryStarMateProfile.lean",
+      "source_sha256": "5a94a6736c6fb329a230043b5d64d8eaa3e106cf90ec21c09460b5e2b7618cee",
+      "ported_sha256": "e076b4b51760302c311b7c3362da064fda830a069dd7d33010ee9d2c24046e7f"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryTightSlots.lean",
+      "source_sha256": "992bd59b6959e600d9dd5196c11e66d704c5bcb98ea982ed1a914a4851f56151",
+      "ported_sha256": "871501fbbedf36176cbf05f3527fe8ad011608253a3583e773e684ad9de69ea8"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryTriangleBudget.lean",
+      "source_sha256": "23433df7af501ef5508caa3144adeb8c62bd8427bf97539d5e83a72e2989831e",
+      "ported_sha256": "3c6818752b6ed46e3505085ca7239e10c1ba833e9f4d80a638c9faf2e6ff4e6d"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryTriangleComponent.lean",
+      "source_sha256": "dae6ff059835573d9eb4fe4a74b6b0ce34a43678bb31058f62acb16d8878c169",
+      "ported_sha256": "d346802b820758368dcafbcd71a8cff402f600bb900a6d3101988b1968ffa47a"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryTriangleRestoration.lean",
+      "source_sha256": "44d5b69506d09f14f4d8b602e3d9b05b9f19cac5244ebf5dd7f9dbd5b0b3a299",
+      "ported_sha256": "afc939ac7e0e2f5ed796c4f09b1da693b8c0b8d38090c51eb35dae5aca49393b"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryTriangleSelection.lean",
+      "source_sha256": "d688b4b41ea326189a67e684a63481fbf1d723791e1d5923b1113ec45fb16776",
+      "ported_sha256": "d67fc87fdc045a78ea9d42ba00fe31b4d7a9a621ac4e8bcff7fae023b9886acd"
+    },
+    {
+      "path": "Gallai/TwoException/OrdinaryTwoT2Endgame.lean",
+      "source_sha256": "4a5df09caf205764273a7c61d55bbe1c7f1989428bc366615bca228dab0d1e11",
+      "ported_sha256": "f06b11889b5aac583f86a3c3a043b1f5dcf9d30a544e2e21f47227a0b998f500"
+    },
+    {
+      "path": "Gallai/TwoException/PacketGainStarRestoration.lean",
+      "source_sha256": "2a7a187c3e51aeb2e276f88fba2d57f9778cbd6ffeb8aa50552011cda4fd61a2",
+      "ported_sha256": "70695ae7136a8e4f45d855e706907fe32e6b2acf2005147a66e363450d1bf869"
+    },
+    {
+      "path": "Gallai/TwoException/PendantReserve.lean",
+      "source_sha256": "c76b90a99b383689f6bb5ccbc33860a6a09a55185140c2780a3b1a9776d41efe",
+      "ported_sha256": "fe61b3069f3ad7a22313b8396bb376558d75163e4ebb632d21fce247351d4e5c"
+    },
+    {
+      "path": "Gallai/TwoException/PrescribedCut.lean",
+      "source_sha256": "b3918c95ed6fd7fb5433888f300a04d38820fb9749a7de38f407bb16b55a8d01",
+      "ported_sha256": "838be01912c9dc63ef59e0d92ef6f28abade99a7fa468e556247057fe4066971"
+    },
+    {
+      "path": "Gallai/TwoException/PrescribedCutSelection.lean",
+      "source_sha256": "cc565afba89dd6e5031381b9139633b95656d2c46d27a484a3a1c7cdbd720bc0",
+      "ported_sha256": "b978117ec42385c58d9dc992c113bd47192cc61fdb4cf16083cf8324f8c2b116"
+    },
+    {
+      "path": "Gallai/TwoException/PrescribedEndpoint.lean",
+      "source_sha256": "a13872ebb73fe0fbb93617bd99876b80875ba2fa9e5da493d249972cb9f821cf",
+      "ported_sha256": "a5013cea94fb79bc932e77a62a7fc81c49f71ee21e3b0811bae4a0528475c691"
+    },
+    {
+      "path": "Gallai/TwoException/PrescribedLeafCut.lean",
+      "source_sha256": "e3f0d91bc4a455b2614057f138bb5ae894325e22113af44e77dbe407171130c8",
+      "ported_sha256": "65f5edb900b3a95d4cefbb2c2217653c5d29eaf883414de44008985bb4de5118"
+    },
+    {
+      "path": "Gallai/TwoException/PrescribedPendant.lean",
+      "source_sha256": "92792a2f5ebd3e6247e9d552ae24ed06fe112d6c30506fdefceb5de21803177e",
+      "ported_sha256": "815a1592e87bb0da2f1b979176801d353f581f50434c750986deca386dd473eb"
+    },
+    {
+      "path": "Gallai/TwoException/PrescribedRetainedEdge.lean",
+      "source_sha256": "684d6de1c0e0a2746f5b3813bda9155d31603042ef15c4270a9c991d9cbb9c02",
+      "ported_sha256": "ad055fc0aea7b6a1962b70b9bb409ae77a70818ce76daec99555675312033e7d"
+    },
+    {
+      "path": "Gallai/TwoException/ProtectedContactCoverage.lean",
+      "source_sha256": "0440efc35726800a89919224182c08631ff8f17a7d71ecbbc693212ceac50e9b",
+      "ported_sha256": "c63240805d393fdbdc60abc6c4c0dd63b3993ca0b541ff61a78ccd1551a24167"
+    },
+    {
+      "path": "Gallai/TwoException/ShortestEvenCorridor.lean",
+      "source_sha256": "9ff23c3722c720e8bd130e80bf45a403d685def85f7cafa0d4bef0460aafe30f",
+      "ported_sha256": "228cf31f78800f98994b23316f1c1053edc1fef94bc54d8dc8c2f1b0d14c02c3"
+    },
+    {
+      "path": "Gallai/TwoException/SimultaneousBridge.lean",
+      "source_sha256": "040d9647a13cf56d3ef51dcafc6df93d3b97a543ed319dcd32ae81e814a808a8",
+      "ported_sha256": "2c77379aae68b6f68bd9191930030aeace78612f4435798190850e30fbc4f4ff"
+    },
+    {
+      "path": "Gallai/TwoException/SimultaneousEndpoint.lean",
+      "source_sha256": "b4757a38483620aea975613186df7d823335dee74d0a12fd42ea40c568dea246",
+      "ported_sha256": "93af0d27c56193d8f32e8cdee13f7bb343eb866254ad626bb5cd1d5907780c40"
+    },
+    {
+      "path": "Gallai/TwoException/SimultaneousNonbridge.lean",
+      "source_sha256": "f7cdb7381f804d633671f4585639a3d5d9b839cbf928c3953210b210f493a139",
+      "ported_sha256": "ce6c1e565fc556a24abd783cb8fce7cc2745bd4b039038414959a9b9d994387c"
+    },
+    {
+      "path": "Gallai/TwoException/StarSurplus.lean",
+      "source_sha256": "bedd4783899fea3481d561c7651e1031322800d7baa5fbdf12fb3eb34e05deea",
+      "ported_sha256": "1db016a6a8c1838466091ca6063f29d171114ce6bf5fd43f99bd70e14b923f50"
+    },
+    {
+      "path": "Gallai/TwoException/WindmillContactE1.lean",
+      "source_sha256": "5eb6c4c525b9b63580add57cd90918b21d6f43f9199134ea94c60f5a8a30d928",
+      "ported_sha256": "b936b64ec74771b96b84399b26d845b6ae14367a2f70cab8387634bf6b67cf3a"
+    },
+    {
+      "path": "Gallai/TwoException/WindmillContactE4.lean",
+      "source_sha256": "4d0a5999dfeeff429c12264b873d7745e7ff8896bdd27a8c71b044e9722c57bd",
+      "ported_sha256": "b8d6323674488230622e3732ac1de137dfcc4132e3ec5a204c323b863f33f0d1"
+    },
+    {
+      "path": "Gallai/TwoException/WindmillContactE5.lean",
+      "source_sha256": "c2c5c59b4a62fe847c5cfdef03675d68edea028ce107a433c13e83f00be0729d",
+      "ported_sha256": "42d413349e153e126e6f4e475a680e55bbb4199df2d5277f8ec9897fa478e290"
+    },
+    {
+      "path": "Gallai/TwoException/WindmillContactSelection.lean",
+      "source_sha256": "9f1bea672a3d6431a2a3d3d198742adab675556ea3cc8e09435a3bce977dd1f4",
+      "ported_sha256": "14749c825bd2362cf4b152def195b512f2c1c44cee62f271f4fb7da5212ac6b9"
+    },
+    {
+      "path": "Gallai/TwoException/WindmillContactSets.lean",
+      "source_sha256": "234fbe8891506753fb924ae9c95ce2eb2eab7be07bf7696d15777eae4aa6ac8a",
+      "ported_sha256": "0b2e657f0396ace90613761fde7bd26d8c36a43a7a773063b6532ecd74dbd229"
+    },
+    {
+      "path": "Gallai/TwoException/WindmillContactUniverse.lean",
+      "source_sha256": "f2edd8d76d23b9ea23412c6f155e67e1ca92525fe6c2c5777a5e5ac040650af0",
+      "ported_sha256": "d0f378a06b9bf34fb22efb4711ee482502a6b68e93b87efeea47bbfa230e2752"
+    },
+    {
+      "path": "Gallai/TwoException/WindmillNeutralPreparation.lean",
+      "source_sha256": "ffb7d5bf987e6d4d30a5a081d50603b35379b27ad32d237053b2482ccea3600e",
+      "ported_sha256": "fea4005e27ebd572b9eb70d26c72afed1e612dcd398c0da40d63ca6b8c9bb0b5"
+    }
+  ]
+}
