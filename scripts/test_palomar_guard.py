@@ -37,6 +37,16 @@ class GuardRegression(unittest.TestCase):
     def test_valid_request(self):
         self.assertEqual(guard.validate_inputs(contract, self.inputs()), "abcdef123456")
 
+    def test_statement_typeclass_order(self):
+        # A source-layout regression for the observed Comparator failure,
+        # not a substitute for elaborated statement comparison.
+        for name in ("Challenge.lean", "Solution.lean"):
+            source = (SOURCE / name).read_text()
+            self.assertLess(source.index("[Fintype V]"),
+                            source.index("[DecidableEq V]"), name)
+            self.assertIn("variable {G : SimpleGraph V} [DecidableRel G.Adj]",
+                          source, name)
+
     def test_bad_request_id(self):
         inputs = self.inputs()
         inputs["request_id"] = "c2-release-long-identifier"

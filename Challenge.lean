@@ -48,15 +48,13 @@ structure Decomposition where
 /-- Existence of an edge partition using at most the given number of paths. -/
 def HasPathBudget (k : ℕ) : Prop := ∃ D : Decomposition G, D.size ≤ k
 
-variable {G} [DecidableEq V]
+variable {G} [Fintype V] [DecidableEq V]
 
 /-- Number of endpoint occurrences at the vertex in this path partition. -/
 def Decomposition.endpointCount (D : Decomposition G) (v : V) : ℕ :=
   ∑ i : Fin D.size,
     ((if (D.path i).start = v then 1 else 0) +
      (if (D.path i).finish = v then 1 else 0))
-
-variable [Fintype V]
 
 /-- Neighbours whose degrees in the original graph are even. -/
 def evenNeighbors (G : SimpleGraph V) [DecidableRel G.Adj] (v : V) : Finset V :=
@@ -86,7 +84,7 @@ theorem ceiling_bound (G : SimpleGraph V) [DecidableRel G.Adj]
       (fun v : V => Even (G.degree v) ∧ 3 < eDegree G v)).card ≤ 2) :
     HasPathBudget G ((Fintype.card V + 1) / 2) := by sorry
 
-variable [DecidableRel G.Adj]
+variable {G : SimpleGraph V} [DecidableRel G.Adj]
 
 /-- Two distinct designated even vertices are simultaneously exposed at least
 twice within floor(|V|/2)+1 paths. Adjacency is unrestricted; connectedness
