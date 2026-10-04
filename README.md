@@ -13,6 +13,13 @@ decomposition. At arbitrary order the simultaneous conclusion uses
 `floor(|V(G)|/2)+1` paths. Simultaneous ceiling exposure at even order and
 the unrestricted Gallai conjecture are not asserted.
 
+The corresponding paper is Idris Ali Shaik,
+[Gallai's conjecture with two exceptional even vertices](https://doi.org/10.5281/zenodo.23134427),
+Zenodo preprint, version 1.0.0 (2026). Theorem 1.1, Corollary 1.2,
+Proposition 3.1 and Corollary 3.2 correspond to the four declarations below.
+The manuscript is licensed under CC BY 4.0; the formalization is licensed
+under Apache-2.0.
+
 ## Selected statements
 
 | Declaration in `Gallai.Submission` | Conclusion |

@@ -21,11 +21,12 @@ classification:
 sources:
   - title: "Gallai's conjecture with two exceptional even vertices"
     authors: ["Idris Ali Shaik"]
+    id: "doi:10.5281/zenodo.23134427"
     type: "article"
-    location: "Unpublished manuscript; Theorem 1.1, Corollary 1.2, Proposition 3.1 and Corollary 3.2"
+    location: "Zenodo preprint, version 1.0.0; Theorem 1.1, Corollary 1.2, Proposition 3.1 and Corollary 3.2"
     relationship: "formalizes"
     author_endorsement: "participated"
-    note: "Manuscript SHA-256: 786e393dfaad34807effe7d4eabb3adbb81e63ed6f13869cca61c4df294a7590. Source extraction and visibility provenance are recorded in SOURCE_PROVENANCE.md."
+    note: "The authoritative substantive source is the submitted snapshot of shaikidris/gallai-two-exception, whose commit is recorded by the intake. The preprint cites proof snapshot ddabb48efe1ca579d52a17a41eda9a84ddbbd575 for the same four selected results. The implementation-reference manuscript has SHA-256 786e393dfaad34807effe7d4eabb3adbb81e63ed6f13869cca61c4df294a7590; the published PDF has SHA-256 6f7be07b1009ad7a5100b2627a62ac13beba8bdb270034ac171f3172169dca57. SOURCE_PROVENANCE.md reconciles these artifact and commit roles."
   - title: "Towards Gallai's path decomposition conjecture"
     authors: ["Fábio Botler", "Maycon Sambinelli"]
     id: "https://arxiv.org/abs/1911.04546"
